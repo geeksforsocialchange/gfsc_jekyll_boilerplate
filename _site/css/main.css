@@ -65,7 +65,7 @@ a {
     border-color: #ea5b0c;
     color: #333333;
     display: grid;
-    grid-template-columns: 1fr 200px; }
+    grid-template-columns: 1fr 260px; }
     .blog__content > * {
       grid-column: 1;
       border-width: 0 2px 0 0;
