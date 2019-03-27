@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="blog__aside">
+  <aside>
+    <time class="teaser__meta" datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
+    <div class="teaser__meta" rel="author">{{ page.author }}</div>
+  </aside>
+</div>
+<div class="blog__content">
+  {{ content }}
+</div>

@@ -1,0 +1,45 @@
+.teaser
+  display: grid
+  grid-template-columns: $margin 1fr $margin
+  border-width: 0 0 2px 0
+  border-style: solid
+  &:last-of-type
+    border-width: 0
+
+  &__content
+    border-width: 0 2px
+    border-style: solid
+    grid-column: 2
+    order: 2
+    padding: 1rem 5rem
+  &__aside
+    grid-column: 1
+    order: 1
+
+  &__meta
+    display: block
+    padding: 1.25rem 2rem
+    font-family: $balboa
+    border-width: 0 0 2px 0
+    border-style: solid
+
+  h2
+    font-family: $freight
+    font-size: 2.2rem
+    line-height: 1
+    a
+      text-decoration: none
+
+  &__excerpt
+    color: $copy
+
+.blog
+  display: grid
+  grid-template-columns: $margin 1fr $margin
+  &__content
+    border-width: 0 2px
+    border-style: solid
+    padding: 0 5rem
+    color: $copy
+    p:first-child
+      font-size: 1.25rem
