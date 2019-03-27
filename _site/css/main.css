@@ -1,3 +1,6 @@
+.footer { display: grid; grid-template-columns: 225px 1fr; border-width: 2px 0 0 0; border-style: solid; border-color: inherit; }
+.footer div { border-width: 0 0 0 2px; border-style: solid; border-color: inherit; padding-left: 2rem; }
+
 .header { display: grid; grid-template-rows: 50px 150px; grid-template-columns: 200px 1fr auto; }
 .header__title { grid-column: 1; grid-row: 1/3; }
 .header__nav { grid-column: 3; grid-row: 1; }
@@ -5,24 +8,32 @@
 .header__strip-2 { grid-column: 2/4; grid-row: 2; background-color: #efbc89; }
 .header__nav, .header__strip-1 { border-style: solid; border-color: inherit; border-width: 0 0 2px 0; }
 .header__nav { font-family: balboa; font-size: 1.25rem; }
-.header__nav ul { list-style-type: none; display: grid; margin: 0; padding: 0; height: 100%; align-content: center; justify-content: center; grid-template-columns: repeat(4, auto); }
-.header__nav li { padding: 1rem; height: 100%; border-width: 0 0px 0 2px; overflow: hidden; border-color: inherit; border-style: solid; }
+.header__nav ul { list-style-type: none; display: flex; margin: 0; padding: 0; align-items: baseline; }
+.header__nav li { padding: 1rem; border-width: 0 0px 0 2px; border-color: inherit; border-style: solid; }
+.header__nav li:hover { background-color: #ea5b0c; }
+.header__nav li:hover a { color: #f1f4d1; }
 .header__nav a { text-decoration: none; }
+
+.fancy { height: 3rem; background-color: #efbc89; border-width: 2px 0; border-style: solid; border-color: inherit; }
 
 body { font-family: freight-text-pro; background-color: #f1f4d1; color: #ea5b0c; font-size: 18px; }
 
 h1, h2, h3, h4, h5, h6 { font-family: balboa; font-weight: 300; }
 
-h1 { font-size: 3rem; }
+h1 { font-size: 3.5rem; }
 
-h2 { font-size: 2rem; }
+h2 { font-size: 2.5rem; }
 
 a { color: #ea5b0c; }
 
-.page { border: 2px solid #ea5b0c; margin: 2rem auto; max-width: 1000px; }
-.page header { text-align: center; }
+.page { border: 2px solid #ea5b0c; margin: 2rem auto; max-width: 1200px; }
+.page h1 { text-align: center; }
 
 .page-title { border-width: 2px 0px; border-style: solid; border-color: inherit; padding: 3rem 5rem; margin: 0; }
+
+.venn { text-align: center; }
+
+.venn__title { text-transform: uppercase; font-size: 2rem; margin-bottom: 1rem; margin-top: 4rem; }
 
 #venn { width: 800px; height: 800px; }
 #venn path { fill: #f1f4d1; cursor: pointer; transition-duration: 200ms; }

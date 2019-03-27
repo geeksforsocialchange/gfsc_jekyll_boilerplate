@@ -27,19 +27,18 @@
     font-size: 1.25rem
     ul
       list-style-type: none
-      display: grid
+      display: flex
       margin: 0
       padding: 0
-      height: 100%
-      align-content: center
-      justify-content: center
-      grid-template-columns: repeat(4, auto)
+      align-items: baseline
     li
       padding: 1rem
-      height: 100%
       border-width: 0 0px 0 2px
-      overflow: hidden
       border-color: inherit
       border-style: solid
+      &:hover
+        a
+          color: $secondary
+        background-color: $primary
     a
       text-decoration: none
