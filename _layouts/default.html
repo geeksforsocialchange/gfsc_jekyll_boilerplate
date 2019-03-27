@@ -26,9 +26,11 @@
     </header>
     <main>
       <article>
-        <header>
-          <h1 class="page-title">{{ page.title }}</h1>
-        </header>
+        {% unless page.layout == 'blog' %}
+          <header>
+            <h1 class="page-title">{{ page.title }}</h1>
+          </header>
+        {% endunless %}
         <div class="{{ page.layout }}">
           {{ content }}
         </div>

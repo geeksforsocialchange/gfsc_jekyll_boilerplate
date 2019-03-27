@@ -35,11 +35,35 @@
 
 .blog
   display: grid
-  grid-template-columns: $margin 1fr $margin
+  grid-template-columns: $margin 1fr
+  border-width: 2px 0 0 0
+  border-style: solid
+  &__title
+    font-family: $freight
+    text-align: left
+    color: $primary
+    font-size: 2.5rem
+    line-height: 1
   &__content
-    border-width: 0 2px
+    border-width: 0 0 0 2px
     border-style: solid
-    padding: 0 5rem
+    border-color: $primary
     color: $copy
-    p:first-child
-      font-size: 1.25rem
+    display: grid
+    grid-template-columns: 1fr $margin
+    > *
+      grid-column: 1
+      border-width: 0 2px 0 0
+      border-style: solid
+      border-color: $primary
+      padding: 0 5rem
+    p
+      margin: 0
+      padding-bottom: 1.5rem
+    > .sidenote
+      grid-column: 2
+      border-width: 0
+      padding: 0 1rem
+      font-size: 0.9rem
+  header + p
+    font-size: 1.25rem
