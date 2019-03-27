@@ -1,0 +1,58 @@
+#venn
+  width: 800px
+  height: 800px
+
+  path
+    fill: $secondary
+    cursor: pointer
+    transition-duration: 200ms
+
+  text
+    text-anchor: middle
+    alignment-baseline: middle
+    font-family: balboa, sans-serif
+    font-weight: 300
+    fill: $primary
+    cursor: pointer
+
+  .one text
+    font-size: 2rem
+    text-transform: uppercase
+
+  .three text
+    font-size: 1.6rem
+
+  // Cursor is on this element
+  .selected
+    text
+      fill: $secondary
+    &.one path
+      fill: $primary
+    &.two path
+      fill: $primary-light
+    &.three path
+      fill: $primary
+
+  // Cursor is adjacent to this element
+  .hovered
+    &.one
+      text
+        fill: $secondary
+      path
+        fill: $primary
+    &.two path
+      fill: $primary-lighter
+    &.three path
+      fill: $primary-lighter
+
+  // Cursor is twice adjacent
+  .hovered--2
+    &.one
+      text
+        fill: $primary
+      path
+        fill: $primary-lighter
+    &.two path
+      fill: $primary-light
+    &.three path
+      fill: $primary-light

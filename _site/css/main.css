@@ -1,0 +1,43 @@
+.header { display: grid; grid-template-rows: 50px 150px; grid-template-columns: 200px 1fr auto; }
+.header__title { grid-column: 1; grid-row: 1/3; }
+.header__nav { grid-column: 3; grid-row: 1; }
+.header__strip-1 { grid-column: 2; grid-row: 1; background-color: #ea5b0c; }
+.header__strip-2 { grid-column: 2/4; grid-row: 2; background-color: #efbc89; }
+.header__nav, .header__strip-1 { border-style: solid; border-color: inherit; border-width: 0 0 2px 0; }
+.header__nav { font-family: balboa; font-size: 1.25rem; }
+.header__nav ul { list-style-type: none; display: grid; margin: 0; padding: 0; height: 100%; align-content: center; justify-content: center; grid-template-columns: repeat(4, auto); }
+.header__nav li { padding: 1rem; height: 100%; border-width: 0 0px 0 2px; overflow: hidden; border-color: inherit; border-style: solid; }
+.header__nav a { text-decoration: none; }
+
+body { font-family: freight-text-pro; background-color: #f1f4d1; color: #ea5b0c; font-size: 18px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: balboa; font-weight: 300; }
+
+h1 { font-size: 3rem; }
+
+h2 { font-size: 2rem; }
+
+a { color: #ea5b0c; }
+
+.page { border: 2px solid #ea5b0c; margin: 2rem auto; max-width: 1000px; }
+.page header { text-align: center; }
+
+.page-title { border-width: 2px 0px; border-style: solid; border-color: inherit; padding: 3rem 5rem; margin: 0; }
+
+#venn { width: 800px; height: 800px; }
+#venn path { fill: #f1f4d1; cursor: pointer; transition-duration: 200ms; }
+#venn text { text-anchor: middle; alignment-baseline: middle; font-family: balboa, sans-serif; font-weight: 300; fill: #ea5b0c; cursor: pointer; }
+#venn .one text { font-size: 2rem; text-transform: uppercase; }
+#venn .three text { font-size: 1.6rem; }
+#venn .selected text { fill: #f1f4d1; }
+#venn .selected.one path { fill: #ea5b0c; }
+#venn .selected.two path { fill: #efbc89; }
+#venn .selected.three path { fill: #ea5b0c; }
+#venn .hovered.one text { fill: #f1f4d1; }
+#venn .hovered.one path { fill: #ea5b0c; }
+#venn .hovered.two path { fill: #f0d5a9; }
+#venn .hovered.three path { fill: #f0d5a9; }
+#venn .hovered--2.one text { fill: #ea5b0c; }
+#venn .hovered--2.one path { fill: #f0d5a9; }
+#venn .hovered--2.two path { fill: #efbc89; }
+#venn .hovered--2.three path { fill: #efbc89; }
