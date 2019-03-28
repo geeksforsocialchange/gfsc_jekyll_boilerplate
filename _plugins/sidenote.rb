@@ -7,4 +7,14 @@ module Jekyll
   end
 end
 
+module Jekyll
+  class RefTag < Liquid::Tag
+    def render(context)
+      text = super
+      "<sup>#{text}</sup>"
+    end
+  end
+end
+
 Liquid::Template.register_tag('sidenote', Jekyll::SidenoteBlock)
+Liquid::Template.register_tag('ref', Jekyll::RefTag)

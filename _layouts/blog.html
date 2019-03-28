@@ -2,15 +2,14 @@
 layout: default
 ---
 
-<div class="blog__aside">
-  <aside>
-    <time class="teaser__meta" datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
-    <div class="teaser__meta" rel="author">{{ page.author }}</div>
-  </aside>
-</div>
 <div class="blog__content">
   <header>
     <h1 class="blog__title">{{ page.title }}</h1>
   </header>
   {{ content }}
 </div>
+
+<aside class="blog__aside">
+  <time class="teaser__meta" datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
+  <div class="teaser__meta" rel="author">{{ page.author }}</div>
+</aside>

@@ -19,9 +19,7 @@ a {
 
 .teaser {
   display: grid;
-  grid-template-columns: 200px 1fr 200px;
-  border-width: 0 0 2px 0;
-  border-style: solid; }
+  grid-template-columns: 200px 1fr 200px; }
   .teaser:last-of-type {
     border-width: 0; }
   .teaser__content {
@@ -63,6 +61,7 @@ a {
     border-width: 0 0 0 2px;
     border-style: solid;
     border-color: #ea5b0c;
+    order: 2;
     color: #333333;
     display: grid;
     grid-template-columns: 1fr 260px; }
@@ -154,7 +153,11 @@ a {
   background-color: #efbc89;
   border-width: 2px 0;
   border-style: solid;
-  border-color: inherit; }
+  border-color: inherit;
+  margin: 0; }
+
+body {
+  margin: 0 2rem; }
 
 .page {
   border: 2px solid #ea5b0c;
@@ -162,10 +165,10 @@ a {
   max-width: 1200px; }
 
 .page-title {
-  border-width: 2px 0px;
+  border-width: 2px 0;
   border-style: solid;
   border-color: inherit;
-  padding: 3rem 5rem;
+  padding: 3rem 3rem;
   margin: 0;
   text-align: center; }
 
@@ -179,8 +182,8 @@ a {
   margin-top: 4rem; }
 
 #venn {
-  width: 800px;
-  height: 800px; }
+  max-width: 800px;
+  max-height: 800px; }
   #venn path {
     fill: #f1f4d1;
     cursor: pointer;

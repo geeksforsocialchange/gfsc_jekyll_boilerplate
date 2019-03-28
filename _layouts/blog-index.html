@@ -9,7 +9,7 @@ layout: default
         <h2 itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
       </header>
       <div class="teaser__excerpt">
-        {{ post.excerpt }}
+        {{ post.excerpt | markdownify }}
         <p><a href="{{ post.url }}" class="btn">Read more&hellip;</a></p>
       </div>
     </div>
@@ -17,6 +17,7 @@ layout: default
       {% include meta.html %}
     </div>
   </article>
+  <hr class="fancy">
 {% endfor %}
 
 
