@@ -5,9 +5,13 @@ author: Dr Kim Foale
 excerpt: I went to a film screening and discussion last week about Mark Duggan's shooting by the police, and the conditions surrounding him and his family. The event was one of the best I've been to. The documentary itself was authentic, engaging, and honest, showing a slice of life in London in a similar fashion to an episode of _The Wire_.
 ---
 
-I went to a film screening and discussion last week about Mark Duggan's shooting by the police, and the conditions surrounding him and his family[^1]. The event was one of the best I've been to. The documentary itself was authentic, engaging, and honest, showing a slice of life in London in a similar fashion to an episode of _The Wire_. The discussion after was a real eye-opener for me: many speakers across two panels with so much to share and say. At the same time, I was rolling an idea around for this blogpost for Open Data Manchester's _[Echo Chambers and Post-Fact Politics](https://www.eventbrite.co.uk/e/echo-chambers-and-post-fact-politics-how-can-we-make-evidence-and-politics-work-better-together-tickets-27755539566)_ event.
+I went to a film screening and discussion last week about Mark Duggan's shooting by the police, and the conditions surrounding him and his family.
+{% sidenote %}
+  [Amponsah (2016). _Hard Stop_.](https://www.theguardian.com/commentisfree/2016/jul/18/george-amponsah-the-hard-stop-2011-riots-black-british-men)
+{% endsidenote %}
+The event was one of the best I've been to. The documentary itself was authentic, engaging, and honest, showing a slice of life in London in a similar fashion to an episode of _The Wire_. The discussion after was a real eye-opener for me: many speakers across two panels with so much to share and say. At the same time, I was rolling an idea around for this blogpost for Open Data Manchester's _[Echo Chambers and Post-Fact Politics](https://www.eventbrite.co.uk/e/echo-chambers-and-post-fact-politics-how-can-we-make-evidence-and-politics-work-better-together-tickets-27755539566)_ event.
 
-[^1]: [Amponsah (2016). _Hard Stop_.](https://www.theguardian.com/commentisfree/2016/jul/18/george-amponsah-the-hard-stop-2011-riots-black-british-men)
+
 
 Police use of body-worn cameras (BWCs) came up in the discussion at the end. A recent study showed that the presence of BWCs reduces complaints against officers by 93%. “Contagious Accountability”: A Global Multisite Randomized Controlled Trial on the Effect of Police Body-Worn Cameras on Citizens’ Complaints Against the Police. Criminal Justice and Behavior. %}. The reasons for the reduction are still under debate, but the authors propose an idea of "contagious accountability". The research methodology was to get half of the shifts at participating police forces to wear BWCs, and half to be the control. One key finding was that both the control and treatment groups had a marked reduction in complains. The authors suggest that the introduction of BWCs engendered an atmosphere of officers obeying the rules, becoming more accountable, even if they were not wearing the cameras.
 

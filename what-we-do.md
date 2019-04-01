@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Working towards a fairer society using activism, techology, and research.
+title: We work towards a fairer society using activism, techology, and research.
 ---
 
 <hr class="fancy">

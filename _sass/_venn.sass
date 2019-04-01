@@ -1,20 +1,49 @@
 .venn
   text-align: center
 
-.venn__title
-  text-transform: uppercase
-  font-size: 2rem
-  margin-bottom: 1rem
-  margin-top: 4rem
+  &__title
+    text-transform: uppercase
+    font-size: 2rem
+    margin-bottom: 3rem
+    margin-top: 4rem
+
+  &__subtitle
+    width: 33%
+    margin: 0 auto
+    font-size: 1.25rem
+    margin-top: 2rem
+    margin-bottom: 4rem
 
 #venn
-  max-width: 800px
-  max-height: 800px
+  max-width: 1300px
+
+  path, polyline, foreignObject
+    transition-duration: 200ms
+
+  polyline, foreignObject
+    display: none
+
+  foreignObject
+    width: 210px
+    height: 200px
+    font-family: $freight
+    font-size: 1rem
+    p
+      color: $copy
 
   path
     fill: $secondary
     cursor: pointer
-    transition-duration: 200ms
+
+  polyline
+    stroke: $primary
+    fill: none
+    stroke-width: 3
+
+  .selected .hide,
+  .hovered .hide,
+  .hovered--2 .hide
+    display: block
 
   text
     text-anchor: middle
@@ -23,6 +52,10 @@
     font-weight: 300
     fill: $primary
     cursor: pointer
+
+    .desc
+      font-family: sans-serif
+      text-transform: none
 
   .one text
     font-size: 2rem
