@@ -1,44 +1,63 @@
 .header
   display: grid
-  grid-template-rows: 50px 150px
-  grid-template-columns: $margin 1fr auto
+  grid-template-columns: 1fr auto
+  grid-auto-rows: auto
+  +for-desktop-up
+    grid-template-rows: auto 1fr
+    grid-template-columns: $margin 1fr auto
   &__title
+    background-color: $primary
+    background-size: contain
+    background-repeat: no-repeat
+    text-indent: -9999px
+    margin: 0
+    // +for-phone-only
+    background-image: url('/assets/images/logo_tablet_portrait.svg')
     grid-column: 1
-    grid-row: 1 / 3
-  &__nav
-    grid-column: 3
-    grid-row: 1
-  &__strip-1
+    grid-row: 1 / 2
+    order: 1
+    +for-desktop-up
+      background-image: url('/assets/images/logo_desktop.svg')
+      grid-column: 1
+      grid-row: 1 / 3
+  &__toggle
+    border: 0
+    color: $primary
+    background: transparent
+    font-family: $balboa
+    display: inline-flex
+    align-items: center
+    font-size: 20px
+    text-transform: uppercase
     grid-column: 2
     grid-row: 1
-    background-color: $primary
-  &__strip-2
-    grid-column: 2 / 4
+    order: 2
+    align-self: center
+    img
+      margin-left: 1rem
+    +for-tablet-portrait-up
+      display: none
+  &__nav
+    grid-column: 1 / 3
     grid-row: 2
-    background-color: $primary-light
-
-  &__nav, &__strip-1
+    order: 3
+    width: 100%
+    +for-desktop-up
+      grid-column: 3
+      grid-row: 1
+  &__strip--1
+    grid-column: 1 / 3
+    grid-row: 3
+    height: 2.77777rem
+    +for-desktop-up
+      grid-column: 2
+      grid-row: 1
+  &__strip--2
+    display: none
+    +for-desktop-up
+      grid-column: 2 / 4
+      grid-row: 2
+  &__nav
     border-style: solid
     border-color: inherit
-    border-width: 0 0 2px 0
-
-  &__nav
-    font-family: balboa
-    font-size: 1.25rem
-    ul
-      list-style-type: none
-      display: flex
-      margin: 0
-      padding: 0
-      align-items: baseline
-    li
-      padding: 1rem
-      border-width: 0 0px 0 2px
-      border-color: inherit
-      border-style: solid
-      &:hover
-        a
-          color: $secondary
-        background-color: $primary
-    a
-      text-decoration: none
+    border-width: 2px 0

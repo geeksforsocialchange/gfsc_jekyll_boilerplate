@@ -1,0 +1,33 @@
+.nav
+  font-family: balboa
+  font-size: 1.25rem
+  &__toggle
+    padding: 0 1rem
+    cursor: pointer
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    display: block
+    // +for-phone-only
+    text-align: center
+    +for-desktop-up
+      display: flex
+      align-items: baseline
+  a
+    text-decoration: none
+    display: block
+    height: 100%
+    padding: 0.75rem 1rem
+    // +for-phone-only
+    font-size: 1.55555rem
+    background-color: $primary
+    color: $secondary
+    &:hover
+      background-color: $secondary
+      color: $primary
+  li
+    +for-desktop-up
+      border-width: 0 0px 0 2px
+      border-color: inherit
+      border-style: solid

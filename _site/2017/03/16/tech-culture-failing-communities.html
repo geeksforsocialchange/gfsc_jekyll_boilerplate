@@ -12,7 +12,7 @@
     <header>
       <div class="header">
         <h2 class="header__title"><a href="/">Geeks for Social Change</a></h2>
-        <nav class="header__nav">
+        <nav class="header__nav nav">
           <ul>
             <li><a href="/who-we-are">Who we are</a></li>
             <li><a href="/what-we-do">What we do</a></li>
@@ -20,8 +20,9 @@
             <li><a href="/contact">Get in touch</a></li>
           </ul>
         </nav>
-        <div class="header__strip-1"></div>
-        <div class="header__strip-2"></div>
+        <button class="header__toggle nav__toggle" href="#" id="js-nav">Menu <img src="/assets/images/menu.svg" role="presentation"></button>
+        <div class="header__strip--1 strip strip--circles"></div>
+        <div class="header__strip--2 strip strip--lines"></div>
       </div>
     </header>
     <main>
@@ -32,7 +33,9 @@
   <header>
     <h1 class="blog__title">Tech culture is failing communities. How can we make it better?</h1>
   </header>
-  <p>Californian design principles have taken over the internet, turning people into products. We need a roadmap towards truly community-owned technology.</p>
+
+  <div class="blog__body">
+    <p>Californian design principles have taken over the internet, turning people into products. We need a roadmap towards truly community-owned technology.</p>
 
 <p>The shift in internet and technology culture over the last decade has been phenomenal. Most of the services we use today haven’t been around long at all — Facebook is thirteen years old, Twitter ten, and Instagram six. The first iPhone — and arguably with it the modern concept of an “app” — was released in 2007. And yet despite all this technology that’s supposed to bring us together, <a href="https://www.theguardian.com/commentisfree/2016/oct/12/neoliberalism-creating-loneliness-wrenching-society-apart">social isolation is a major player in the current epidemic of depression, loneliness, eating disorders, suicide</a>, and other social problems. How has this happened?</p>
 
@@ -183,6 +186,7 @@
 
 <p><em>Artwork by <a href="http://www.remichalak.com/">Rebecca Michalak</a>. Thanks to everyone who contributed to or gave feedback on this draft, and especially to <a href="https://twitter.com/erik_davis">Erik Davis</a> for the reminder California is a big place.</em></p>
 
+  </div>
 </div>
 
 <aside class="blog__aside">

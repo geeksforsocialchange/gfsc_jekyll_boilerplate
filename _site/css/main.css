@@ -2,7 +2,8 @@ body {
   font-family: freight-text-pro, sans-serif;
   background-color: #f1f4d1;
   color: #ea5b0c;
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: balboa, sans-serif;
@@ -100,46 +101,72 @@ a {
 
 .header {
   display: grid;
-  grid-template-rows: 50px 150px;
-  grid-template-columns: 200px 1fr auto; }
+  grid-template-columns: 1fr auto;
+  grid-auto-rows: auto; }
+  @media (min-width: 1200px) {
+    .header {
+      grid-template-rows: auto 1fr;
+      grid-template-columns: 200px 1fr auto; } }
   .header__title {
+    background-color: #ea5b0c;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    margin: 0;
+    background-image: url("/assets/images/logo_tablet_portrait.svg");
     grid-column: 1;
-    grid-row: 1/3; }
-  .header__nav {
-    grid-column: 3;
-    grid-row: 1; }
-  .header__strip-1 {
+    grid-row: 1/2;
+    order: 1; }
+    @media (min-width: 1200px) {
+      .header__title {
+        background-image: url("/assets/images/logo_desktop.svg");
+        grid-column: 1;
+        grid-row: 1/3; } }
+  .header__toggle {
+    border: 0;
+    color: #ea5b0c;
+    background: transparent;
+    font-family: balboa, sans-serif;
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
     grid-column: 2;
     grid-row: 1;
-    background-color: #ea5b0c; }
-  .header__strip-2 {
-    grid-column: 2/4;
+    order: 2;
+    align-self: center; }
+    .header__toggle img {
+      margin-left: 1rem; }
+    @media (min-width: 600px) {
+      .header__toggle {
+        display: none; } }
+  .header__nav {
+    grid-column: 1/3;
     grid-row: 2;
-    background-color: #efbc89; }
-  .header__nav, .header__strip-1 {
+    order: 3;
+    width: 100%; }
+    @media (min-width: 1200px) {
+      .header__nav {
+        grid-column: 3;
+        grid-row: 1; } }
+  .header__strip--1 {
+    grid-column: 1/3;
+    grid-row: 3;
+    height: 2.77777rem; }
+    @media (min-width: 1200px) {
+      .header__strip--1 {
+        grid-column: 2;
+        grid-row: 1; } }
+  .header__strip--2 {
+    display: none; }
+    @media (min-width: 1200px) {
+      .header__strip--2 {
+        grid-column: 2/4;
+        grid-row: 2; } }
+  .header__nav {
     border-style: solid;
     border-color: inherit;
-    border-width: 0 0 2px 0; }
-  .header__nav {
-    font-family: balboa;
-    font-size: 1.25rem; }
-    .header__nav ul {
-      list-style-type: none;
-      display: flex;
-      margin: 0;
-      padding: 0;
-      align-items: baseline; }
-    .header__nav li {
-      padding: 1rem;
-      border-width: 0 0px 0 2px;
-      border-color: inherit;
-      border-style: solid; }
-      .header__nav li:hover {
-        background-color: #ea5b0c; }
-        .header__nav li:hover a {
-          color: #f1f4d1; }
-    .header__nav a {
-      text-decoration: none; }
+    border-width: 2px 0; }
 
 .fancy {
   height: 3rem;
@@ -149,12 +176,47 @@ a {
   border-color: inherit;
   margin: 0; }
 
+.nav {
+  font-family: balboa;
+  font-size: 1.25rem; }
+  .nav__toggle {
+    padding: 0 1rem;
+    cursor: pointer; }
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center; }
+    @media (min-width: 1200px) {
+      .nav ul {
+        display: flex;
+        align-items: baseline; } }
+  .nav a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1.55555rem;
+    background-color: #ea5b0c;
+    color: #f1f4d1; }
+    .nav a:hover {
+      background-color: #f1f4d1;
+      color: #ea5b0c; }
+  @media (min-width: 1200px) {
+    .nav li {
+      border-width: 0 0px 0 2px;
+      border-color: inherit;
+      border-style: solid; } }
+
 body {
-  margin: 0 2rem; }
+  margin: 0 1rem;
+  background-image: url("/assets/images/background.png");
+  background-size: 50px 50px; }
 
 .page {
   border: 2px solid #ea5b0c;
-  margin: 2rem auto;
+  margin: 1rem auto;
   max-width: 1400px; }
 
 .page-title {
@@ -164,6 +226,13 @@ body {
   padding: 3rem 3rem;
   margin: 0;
   text-align: center; }
+
+.strip--circles {
+  background-size: 1920px 200px;
+  background-image: url("/assets/images/circles.svg"); }
+.strip--lines {
+  background-size: 1920px 400px;
+  background-image: url("/assets/images/lines.svg"); }
 
 .venn {
   text-align: center; }
