@@ -14,3 +14,4 @@ We can develop websites and apps, create training and support programs, conduct 
 We won an AAL Smart Ageing Prize in 2018 for our work on PlaceCal, a community organisaing tool aimed at reducing social isolation for the over 50s.
 
 [Get in touch to learn more](/contact)
+{: .btn}

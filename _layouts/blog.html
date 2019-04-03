@@ -16,6 +16,5 @@ layout: default
 </div>
 
 <aside class="blog__aside">
-  <time class="teaser__meta" datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
-  <div class="teaser__meta" rel="author">{{ page.author }}</div>
+  <time class="blog__meta" datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time><div class="blog__meta" rel="author">By {{ page.author }}</div>
 </aside>

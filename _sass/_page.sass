@@ -15,10 +15,19 @@ body
   text-align: center
   padding: 1.5rem 2rem
   +for-tablet-portrait-up
-    +border(2px 0)
-    padding: 2rem 5rem
+    +border(2px 0 0)
+    padding: 2rem 8rem
 
 .default
   padding: 1rem 1.5rem
   +for-phone-only
     +border(0 2px)
+  +for-tablet-portrait-up
+    padding: 1rem 5rem
+    h2
+      margin-top: 2rem
+    h2 + p
+      font-size: 1.44444rem
+    p
+      font-size: 1.222222rem
+      line-height: 1.454545

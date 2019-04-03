@@ -46,6 +46,9 @@
             <h1 class="page-title">{{ page.title }}</h1>
           </header>
         {% endunless %}
+        {% if page.layout == 'default' %}
+          <hr class="fancy unless-mobile">
+        {% endif %}
         <div class="{{ page.layout }}">
           {{ content }}
         </div>
@@ -68,7 +71,7 @@
       </div>
       <div class="footer__impressum">
         <p>
-          Copyright &copy; 2019 Geeks for Social Change Ltd.<br class="mobile-only">
+          Copyright &copy; 2019 Geeks for Social Change Ltd.<br class="if-mobile">
           All rights reserved.<br>
           Registered in England and Wales No. 10931293.<br>
           <a href="/privacy">Privacy policy</a>

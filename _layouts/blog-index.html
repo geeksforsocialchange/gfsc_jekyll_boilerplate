@@ -18,7 +18,8 @@ layout: default
       </div>
     </div>
     <aside class="teaser__aside">
-      {% include meta.html %}
+      <time class="teaser__meta" datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+      <div class="teaser__meta" rel="author">By {{ post.author }}</div>
     </aside>
   </article>
 {% endfor %}
