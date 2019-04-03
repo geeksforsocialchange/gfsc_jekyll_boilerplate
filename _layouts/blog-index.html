@@ -3,21 +3,24 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
+  <hr class="fancy">
   <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="teaser">
     <div class="teaser__content">
       <header>
-        <h2 itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+        <h2 class="teaser__title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
+        {% if post.subtitle %}
+          <p class="teaser__subtitle">{{ post.subtitle }}</p>
+        {% endif %}
       </header>
       <div class="teaser__excerpt">
         {{ post.excerpt | markdownify }}
-        <p><a href="{{ post.url }}" class="btn">Read more&hellip;</a></p>
+        <p><a href="{{ post.url }}" class="btn">Read more</a></p>
       </div>
     </div>
-    <div class="teaser__aside">
+    <aside class="teaser__aside">
       {% include meta.html %}
-    </div>
+    </aside>
   </article>
-  <hr class="fancy">
 {% endfor %}
 
 

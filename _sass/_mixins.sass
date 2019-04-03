@@ -31,3 +31,28 @@ $margin: 200px
     border-width: 2px
   @else
     border-width: $side
+
+=animate
+  position: relative
+  transition-property: color
+  transition-duration: 0.2s
+
+  &:hover
+    color: $secondary
+    &:before
+      transform: scaleX(1)
+
+  &:before
+    content: ""
+    position: absolute
+    z-index: -1
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: $primary
+    transform: scaleX(0)
+    transform-origin: 0 50%
+    transition-property: transform
+    transition-duration: 0.2s
+    transition-timing-function: ease-out
