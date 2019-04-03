@@ -2,26 +2,36 @@
   display: grid
   grid-template-columns: 1fr auto
   grid-auto-rows: auto
+  +for-phone-only
+    +border(2px 2px 0 2px)
   +for-desktop-up
     grid-template-rows: auto 1fr
     grid-template-columns: $margin 1fr auto
   &__title
     background-color: $primary
-    background-size: contain
-    background-repeat: no-repeat
-    text-indent: -9999px
     margin: 0
-    // +for-phone-only
-    background-image: url('/assets/images/logo_tablet_portrait.svg')
     grid-column: 1
     grid-row: 1 / 2
     order: 1
+    +border(bottom)
     +for-desktop-up
-      background-image: url('/assets/images/logo_desktop.svg')
       grid-column: 1
       grid-row: 1 / 3
+  &__logo
+    background-size: contain
+    background-repeat: no-repeat
+    margin: 0.8rem 1rem
+    width: 157.22px
+    height: 43.66px
+    // +for-phone-only
+    background-image: url('/assets/images/logo_tablet_portrait.svg')
+    +for-desktop-up
+      background-image: url('/assets/images/logo_desktop.svg')
+  &__h2
+    text-indent: -9999px
+    line-height: 0
   &__toggle
-    border: 0
+    +border(bottom)
     color: $primary
     background: transparent
     font-family: $balboa
@@ -33,7 +43,7 @@
     grid-row: 1
     order: 2
     align-self: center
-    img
+    svg
       margin-left: 1rem
     +for-tablet-portrait-up
       display: none
@@ -42,6 +52,9 @@
     grid-row: 2
     order: 3
     width: 100%
+    display: none
+    &.expanded
+      display: block
     +for-desktop-up
       grid-column: 3
       grid-row: 1
@@ -60,4 +73,4 @@
   &__nav
     border-style: solid
     border-color: inherit
-    border-width: 2px 0
+    border-width: 0 0 2px 0

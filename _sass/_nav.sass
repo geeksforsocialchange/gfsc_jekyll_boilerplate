@@ -1,9 +1,13 @@
 .nav
   font-family: balboa
-  font-size: 1.25rem
+  font-size: 1.55555rem
   &__toggle
     padding: 0 1rem
     cursor: pointer
+    height: 100%
+    line
+      stroke: $primary
+      stroke-width: 3px
   ul
     list-style-type: none
     margin: 0
@@ -18,9 +22,8 @@
     text-decoration: none
     display: block
     height: 100%
-    padding: 0.75rem 1rem
+    padding: 1.55555rem 1rem
     // +for-phone-only
-    font-size: 1.55555rem
     background-color: $primary
     color: $secondary
     &:hover
@@ -28,6 +31,4 @@
       color: $primary
   li
     +for-desktop-up
-      border-width: 0 0px 0 2px
-      border-color: inherit
-      border-style: solid
+      +border(bottom)

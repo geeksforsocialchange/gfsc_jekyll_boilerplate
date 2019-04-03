@@ -1,3 +1,5 @@
+$margin: 200px
+
 =for-phone-only
   @media (max-width: 599px)
     @content
@@ -14,4 +16,18 @@
   @media (min-width: 1200px)
     @content
 
-$margin: 200px
+=border($side)
+  border-style: solid
+  border-color: $primary
+  @if $side == top
+    border-width: 2px 0 0 0
+  @else if $side == bottom
+    border-width: 0 0 2px 0
+  @else if $side == left
+    border-width: 0 0 0 2px
+  @else if $side == right
+    border-width: 2px 0 0 0
+  @else if $side == all
+    border-width: 2px
+  @else
+    border-width: $side

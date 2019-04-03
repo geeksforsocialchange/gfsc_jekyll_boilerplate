@@ -11,8 +11,13 @@
   <div class="page">
     <header>
       <div class="header">
-        <h2 class="header__title"><a href="/">Geeks for Social Change</a></h2>
-        <nav class="header__nav nav">
+        <h2 class="header__title">
+          <a href="/">
+            <div class="header__h2">Geeks for Social Change</div>
+            <div class="header__logo" role="presentation"></div>
+          </a>
+        </h2>
+        <nav class="header__nav nav" id="js-nav">
           <ul>
             <li><a href="/who-we-are">Who we are</a></li>
             <li><a href="/what-we-do">What we do</a></li>
@@ -20,7 +25,16 @@
             <li><a href="/contact">Get in touch</a></li>
           </ul>
         </nav>
-        <button class="header__toggle nav__toggle" href="#" id="js-nav">Menu <img src="/assets/images/menu.svg" role="presentation"></button>
+        <button class="header__toggle nav__toggle" href="#" id="js-toggle">
+          Menu
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="33" viewBox="0 0 30 33">
+            <g transform="translate(-308 -37.5)">
+              <line x2="30" transform="translate(308 39)"/>
+              <line x2="30" transform="translate(308 54)"/>
+              <line x2="30" transform="translate(308 69)"/>
+            </g>
+          </svg>
+        </button>
         <div class="header__strip--1 strip strip--circles"></div>
         <div class="header__strip--2 strip strip--lines"></div>
       </div>
@@ -174,28 +188,31 @@ regions.forEach(function(elem) {
   <p class="venn__subtitle">*such as campaigns, charities, social enterprises, health and wellbeing initatives, the NHS, neighbourhood teams&hellip;</p>
 </div>
 
-<hr class="fancy">
+<hr class="fancy fancy--no-phone">
 
 <div class="windows">
   <div class="window window--1">
     <h2>Who we are</h2>
-    <p>Geeks for Social Change is a research and development studio based in Manchester, UK.</p>
+    <p class="content">Geeks for Social Change is a research and development studio based in Manchester, UK.</p>
     <p class="more">
       <a href="/who-we-are">Find out more</a>
+      <span class="strip strip--lines"></span>
     </p>
   </div>
   <div class="window window--2">
     <h2>What we do</h2>
-    <p>We use a community-based approach to techology and research that helps organisations and social enterprises achieve their aims.</p>
+    <p class="content">We use a community-based approach to techology and research that helps organisations and social enterprises achieve their aims.</p>
     <p class="more">
       <a href="/what-we-do">Find out more</a>
+      <span class="strip strip--lines"></span>
     </p>
   </div>
   <div class="window window--3">
     <h2>Get in touch</h2>
-    <p>Discover how we can work together</p>
+    <p class="content">Discover how we can work together towards a fairer world.</p>
     <p class="more">
       <a href="/contact">Contact us</a>
+      <span class="strip strip--lines"></span>
     </p>
   </div>
 </div>
@@ -214,5 +231,6 @@ regions.forEach(function(elem) {
       </div>
     </footer>
   </div>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>

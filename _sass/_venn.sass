@@ -3,11 +3,16 @@
 
   &__title
     text-transform: uppercase
-    font-size: 2rem
-    margin-bottom: 3rem
-    margin-top: 4rem
+    font-size: 1.11111rem
+    margin: 2rem 0
+    +for-desktop-up
+      margin: 4rem 0 3rem
+      font-size: 2rem
 
   &__subtitle
+    display: none
+    +for-tablet-portrait-up
+      display: block
     width: 33%
     margin: 0 auto
     font-size: 1.25rem

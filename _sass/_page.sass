@@ -4,14 +4,16 @@ body
   background-size: 50px 50px
 
 .page
-  border: 2px solid $primary
   margin: 1rem auto
   max-width: 1400px
+  +for-tablet-portrait-up
+    +border(all)
 
 .page-title
-  border-width: 2px 0
-  border-style: solid
-  border-color: inherit
-  padding: 3rem 3rem
+  +border(all)
+  padding: 1.5rem 2rem
+  +for-desktop-up
+    +border(2px 0)
+    padding: 3rem 3rem
   margin: 0
   text-align: center

@@ -1,11 +1,13 @@
 $freight: freight-text-pro, sans-serif
 $balboa: balboa, sans-serif
 
+html
+  font-size: 18px
+  
 body
   font-family: $freight
   background-color: $secondary
   color: $primary
-  font-size: 18px
   font-weight: 400
 
 h1, h2, h3, h4, h5, h6
@@ -13,7 +15,9 @@ h1, h2, h3, h4, h5, h6
   font-weight: 300
 
 h1
-  font-size: 3.5rem
+  font-size: 1.55555rem
+  +for-desktop-up
+    font-size: 3.5rem
 
 h2
   font-size: 2.5rem
