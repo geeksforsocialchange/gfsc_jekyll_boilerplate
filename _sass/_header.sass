@@ -4,8 +4,10 @@
   grid-auto-rows: auto
   +for-phone-only
     +border(2px 2px 0 2px)
-  +for-desktop-up
+  +for-tablet-portrait-up
     grid-template-rows: auto 1fr
+    grid-template-columns: auto 1fr auto
+  +for-desktop-up
     grid-template-columns: $margin 1fr auto
   &__title
     background-color: $primary
@@ -14,9 +16,13 @@
     grid-row: 1 / 2
     order: 1
     +border(bottom)
-    +for-desktop-up
+    +for-tablet-portrait-up
       grid-column: 1
-      grid-row: 1 / 3
+      grid-row: 1
+    +for-desktop-up
+  &__h2
+    text-indent: -9999px
+    line-height: 0
   &__logo
     background-size: contain
     background-repeat: no-repeat
@@ -25,11 +31,12 @@
     height: 43.66px
     // +for-phone-only
     background-image: url('/assets/images/logo_tablet_portrait.svg')
+    +for-tablet-portrait-up
+      margin: 0.6rem 1rem
+      width: 114.34px
+      height: 31.75px
     +for-desktop-up
       background-image: url('/assets/images/logo_desktop.svg')
-  &__h2
-    text-indent: -9999px
-    line-height: 0
   &__toggle
     +border(bottom)
     color: $primary
@@ -53,24 +60,25 @@
     order: 3
     width: 100%
     display: none
+    +border(bottom)
     &.expanded
       display: block
-    +for-desktop-up
+    +for-tablet-portrait-up
       grid-column: 3
+      display: block
       grid-row: 1
+      border-width: 0
   &__strip--1
+    height: 2.77777rem
     grid-column: 1 / 3
     grid-row: 3
-    height: 2.77777rem
-    +for-desktop-up
+    +for-tablet-portrait-up
       grid-column: 2
       grid-row: 1
+      height: 100%
+    +for-desktop-up
   &__strip--2
     display: none
     +for-desktop-up
       grid-column: 2 / 4
       grid-row: 2
-  &__nav
-    border-style: solid
-    border-color: inherit
-    border-width: 0 0 2px 0

@@ -4,9 +4,15 @@
   font-size: 0.9rem
   grid-template-columns: 1fr 3.6rem 3.6rem
   grid-template-rows: 2.77777rem 3.6rem auto
+  +for-tablet-portrait-up
+    +border(top)
+    grid-template-columns: auto 1fr 3.6rem 3.6rem
+    grid-template-rows: 2.77777rem auto
+  +for-desktop-up
+    grid-template-columns: $margin 1fr
   &__strip
     grid-row: 1
-    grid-column: 1 / 4
+    grid-column: 1 / -1
     +border(bottom)
   &__title
     grid-row: 2
@@ -15,15 +21,21 @@
     display: grid
     align-items: center
     justify-content: left
+    +for-tablet-portrait-up
+      +border(right)
   &__logo
     background-image: url('/assets/images/logo_footer_mobile.svg')
     background-repeat: no-repeat
     width: 157.22px
     height: 43.66px
     margin-left: 0.75rem
+    +for-tablet-portrait-up
+      margin-right: 1rem
   &__icon
     +border(0 0 2px 2px)
     line-height: 0
+    +for-tablet-portrait-up
+      +border(left)
     a
       display: grid
       justify-content: center
@@ -38,15 +50,23 @@
         fill: $secondary
     &--twitter
       grid-column: 3
+      +for-tablet-portrait-up
+        grid-column: 4
       svg
         width: 30px
     &--email
       grid-column: 2
+      +for-tablet-portrait-up
+        grid-column: 3
       svg
         width: 22.5px
   &__impressum
+    margin: 0 0.75rem
     grid-row: 3
     grid-column: 1 / 4
-    margin: 0 0.75rem
-  +for-desktop-up
-    grid-template-columns: $margin 1fr
+    p
+      color: $primary
+      margin: 1rem 0
+    +for-tablet-portrait-up
+      grid-row: 2
+      grid-column: 2

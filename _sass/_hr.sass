@@ -4,6 +4,8 @@
   +border(0 2px 2px 2px)
   background-size: 1920px 200px
   background-image: url('/assets/images/circles.svg')
-  &--no-phone
-    +for-phone-only
+  +for-phone-only
+    &--no-phone
       display: none
+  +for-tablet-portrait-up
+    +border(2px 0)

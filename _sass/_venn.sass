@@ -12,13 +12,18 @@
 
   &__subtitle
     display: none
-    +for-tablet-portrait-up
-      display: block
-    width: 33%
     margin: 0 auto
-    font-size: 1.25rem
     margin-top: 2rem
     margin-bottom: 4rem
+    color: $primary
+    font-weight: 300
+    // TODO: Confirm font with Mark
+    +for-tablet-portrait-up
+      display: block
+      width: 66%
+      margin-bottom: 2rem
+    +for-desktop-up
+      width: 33%
 
 #venn
   max-width: 1300px
@@ -36,6 +41,9 @@
     font-size: 1rem
     p
       color: $copy
+      line-height: 1.4
+      text-align: left
+      margin: 0
 
   path
     fill: $secondary

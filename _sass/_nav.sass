@@ -1,6 +1,8 @@
 .nav
   font-family: balboa
   font-size: 1.55555rem
+  +for-tablet-portrait-up
+    font-size: 1.11111rem
   &__toggle
     padding: 0 1rem
     cursor: pointer
@@ -15,13 +17,14 @@
     display: block
     // +for-phone-only
     text-align: center
-    +for-desktop-up
+    +for-tablet-portrait-up
       display: flex
-      align-items: baseline
+      align-items: center
+      justify-content: center
+      height: 100%
   a
     text-decoration: none
     display: block
-    height: 100%
     padding: 1.55555rem 1rem
     // +for-phone-only
     background-color: $primary
@@ -29,6 +32,19 @@
     &:hover
       background-color: $secondary
       color: $primary
+    +for-tablet-portrait-up
+      padding: 0.5rem 1rem
+      margin: 0
+      background-color: transparent
+      color: $primary
+      line-height: 2
+      &:hover
+        background-color: $primary
+        color: $secondary
   li
-    +for-desktop-up
-      +border(bottom)
+    +for-tablet-portrait-up
+      +border(left)
+      display: grid
+      justify-content: center
+      align-items: center
+      height: 100%
