@@ -6,17 +6,15 @@ author: Dr Kim Foale
 excerpt: I’ve spent the last 9 months working with [PHASE@MMU](http://msaphase.org/), [CityVerve](https://cityverve.org.uk/), and Manchester City Council to deliver [PlaceCal](https://placecal.org/), a crowd-sourced community events calendar. It’s been an extremely busy time with a lot of learning in a very short amount of time, and as we head into Phase 2 of our development I thought it’d be a good time to recap the process so far.
 ---
 
-Creating a low social capital social network for Manchester
-
 I’ve spent the last 9 months working with [PHASE@MMU](http://msaphase.org/), [CityVerve](https://cityverve.org.uk/), and Manchester City Council to deliver [PlaceCal](https://placecal.org/), a crowd-sourced community events calendar. It’s been an extremely busy time with a lot of learning in a very short amount of time, and as we head into Phase 2 of our development I thought it’d be a good time to recap the process so far.
 
 To start at the end: here’s a little clip from our launch party on 1st Dec 2017, where we organised the Winter Lights Switch-on in Hulme Park. Confused what Christmas lights and children’s choirs could possibly have to do with a smart city project? Find out more in the video…
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/sTYs_mc0Qgc" frameborder="0" allowfullscreen></iframe></center>
+<iframe src="https://www.youtube.com/embed/sTYs_mc0Qgc" frameborder="0" allowfullscreen></iframe>
 
 ## Where it all began: Manchester Age Friendly Neighbourhoods
 
-[Manchester Age Friendly Neighbourhoods](http://mafn.org.uk/) (MAFN) is a project centred around four resident-led neighbourhood partnerships in different areas of Manchester, led by the PHASE consultancy at Manchester School of Architecture. It’s part of [*Age Friendly Manchester](http://www.manchester.gov.uk/info/200091/older_people/7116/our_age-friendly_work/1), *itself part of the World Heath Organisation’s [*Age Friendly Cities](http://www.who.int/ageing/publications/Global_age_friendly_cities_Guide_English.pdf)* program. PHASE stands for “Place, Health, Architecture, Space and Environment”, which hints at the range of perspectives used in the project: we will return to this later.
+[Manchester Age Friendly Neighbourhoods](http://mafn.org.uk/) (MAFN) is a project centred around four resident-led neighbourhood partnerships in different areas of Manchester, led by the PHASE consultancy at Manchester School of Architecture. It’s part of [*Age Friendly Manchester*](http://www.manchester.gov.uk/info/200091/older_people/7116/our_age-friendly_work/1), itself part of the World Heath Organisation’s [*Age Friendly Cities*](http://www.who.int/ageing/publications/Global_age_friendly_cities_Guide_English.pdf) program. PHASE stands for “Place, Health, Architecture, Space and Environment”, which hints at the range of perspectives used in the project: we will return to this later.
 
 MAFN set up four resident-led age-friendly partnerships in different areas of Manchester in 2015. These partnerships aim bring people together from diverse organisations such as public health providers, emergency services, housing associations, community organisations, residents’ associations, local councils and neighbourhood teams. The partnerships are designed to help tackle issues in each area by enabling residents and organisations to work together to identify problems, and then research, design, produce and evaluate solutions together. *Resident-led* is the key term here. Rather than a top-down approach where the remit of the work to be done is decided in advance, this kind of partnership allows people who live in an area to decide what the important issues are and get access to regional providers who might be able to fix those problems.
 
@@ -26,7 +24,7 @@ This is methodology is called *asset-based community development *or *ABCD*: aid
 
 ![](https://cdn-images-1.medium.com/max/2000/1*xq77VmzDQw4mN2mqmxpopg.png)
 
-![Left: a neighbourhood meeting in Old Moat. Right: an example Hulme board meeting.](https://cdn-images-1.medium.com/max/2000/1*Hj6XTsBBP89GMrGghXQdew.png)*Left: a neighbourhood meeting in Old Moat. Right: an example Hulme board meeting.*
+![Left: a neighbourhood meeting in Old Moat. Right: an example Hulme board meeting.](https://cdn-images-1.medium.com/max/2000/1*Hj6XTsBBP89GMrGghXQdew.png)
 
 This process is designed to combat the widespread “silos” that exist across all sectors. Silos occur when local councils, housing associations, or universities for example act alone over long periods of time. Each institution ends up with its own strengths and weaknesses, and inevitably creates parallel and disconnected knowledges, skills, facilities, and funding streams. If you’ve ever been involved in a community group and wondered “why can’t we just book a room on the local campus?” or “how come the same organisations seem to get all the funding?” or as a researcher wondered “how come it’s so hard to work with local organisations and get citizen involvement?”, then you’ve probably encountered this first-hand. Resident-led partnerships’ direct aim is to de-silo and allow cross-agency work, producing interventions that enable community wellness by solving problems at the root level.
 
@@ -42,7 +40,7 @@ This brings us back to the role of the architect in partnership work. Architects
 
 ![](https://cdn-images-1.medium.com/max/2000/1*cfypWd_q2IgjnmfBQeN2_g.png)
 
-![The final result: not too complex!](https://cdn-images-1.medium.com/max/2000/1*ojtkLnuq3dNM3E4YNGjHsg.jpeg)*The final result: not too complex!*
+![The final result: not too complex!](https://cdn-images-1.medium.com/max/2000/1*ojtkLnuq3dNM3E4YNGjHsg.jpeg)
 
 At the time of writing, the NHS are still waiting to start doing surgeries there, such is the planning time on these things. However, Manchester City Council are already using the church hall for a new programme of health and fitness activities. Two people with physical disabilities who used to go to the food bank are now staying for the lunch club which is hosted afterwards — previously they got their food and left. And of course, the partnership now has access to a versatile and accessible venue that meets everyone’s needs in the area.
 
@@ -56,7 +54,7 @@ The research methodology for the MAFN process involved a series of research acti
 
 One of the first, extremely stark findings in this process was that **older people didn’t think there was anything to do near them**. So we set out to find out what there *was* to do. This single observation ended up being the entire design principle for the project. Through partnership meetings and hundreds of phonecalls, chats and emails, we asked everyone what events they knew about or were putting on, and if there’s anyone else we should talk to. Pretty soon each area had a Google Calendar a bit like this one:
 
-![All the age-friendly events we knew about in Hulme and Moss Side this time last year…](https://cdn-images-1.medium.com/max/4236/1*BAhBFQx7sMpAfdiL2sMpCw.png)*All the age-friendly events we knew about in Hulme and Moss Side this time last year…*
+![All the age-friendly events we knew about in Hulme and Moss Side this time last year…](https://cdn-images-1.medium.com/max/4236/1*BAhBFQx7sMpAfdiL2sMpCw.png)
 
 These calendars were managed by the MAFN team, and were printed out and distributed at each Age Friendly board meeting; in fact, we’re still doing this. None of us quite realised how much there was going on in each area, or quite how many spaces people were using for events. We found that there were several age-friendly events almost every day for people to go to. We found that many major providers didn’t publish their data online or published a highly incomplete data set, usually managing some mass of leaflets and flyers, circulated and collated by the organisations themselves and a range of health providers and active citizens. Contrary to our initial assumptions there was a *surplus* of community spaces not a lack: however, most of these spaces were hidden and hard to find out about and access without a real-world local connection.
 
@@ -64,13 +62,10 @@ Very quickly we realised that these Google Calendars were going to be very diffi
 
 More concerning than these issues though, it requires constant updates and maintenance by the team. This is a bottleneck for several reasons.
 
-1. It placed a high degree of expectation on initial contact with organisations. Anything missing after an initial meeting would require sending a change by email or a chance conversation. As most organisations were struggling to do any event promotion at all, and the event promoters themselves might not be using the Age Friendly calendar we were printing, it wasn’t viable to expect anything to stay updated after initial contact.
-
-1. We later discovered when we let organisations update their own calendars, in some cases they listed *twice as many events *as they did in what we thought was a comprehensive face-to-face interview. In other words, even people managing event spaces didn’t know everything that was happening in that space.
-
-1. Having a single point of ownership means a single point of failure. As soon as our funding ends, there is no obvious resource to maintain the calendar information unless a resident steps in to take over, which experience has shown is a big ask. Any sustainable system needs to be tolerant to funded roles and motivated community development workers coming and going, and allow organisations to manage their own data. Distributed ownership was therefore a prerequisite for a sustainable system.
-
-1. The job of maintaining the events scales proportionally with the number of organisations. In other words, we risked becoming a victim of our own success the more organisations started to use it, as the administrative task scales linearly the more people come to rely on and use it.
+  1. It placed a high degree of expectation on initial contact with organisations. Anything missing after an initial meeting would require sending a change by email or a chance conversation. As most organisations were struggling to do any event promotion at all, and the event promoters themselves might not be using the Age Friendly calendar we were printing, it wasn’t viable to expect anything to stay updated after initial contact.
+  1. We later discovered when we let organisations update their own calendars, in some cases they listed *twice as many events* as they did in what we thought was a comprehensive face-to-face interview. In other words, even people managing event spaces didn’t know everything that was happening in that space.
+  1. Having a single point of ownership means a single point of failure. As soon as our funding ends, there is no obvious resource to maintain the calendar information unless a resident steps in to take over, which experience has shown is a big ask. Any sustainable system needs to be tolerant to funded roles and motivated community development workers coming and going, and allow organisations to manage their own data. Distributed ownership was therefore a prerequisite for a sustainable system.
+  1. The job of maintaining the events scales proportionally with the number of organisations. In other words, we risked becoming a victim of our own success the more organisations started to use it, as the administrative task scales linearly the more people come to rely on and use it.
 
 We needed something better.
 
@@ -89,7 +84,7 @@ Our goal instead is to encourage real world interaction. We realised we needed t
 
 Our initial findings led to the pretty clear conclusion that neighbourhoods have extremely poor information about themselves. As well as a lack of combined area events listings, there’s a general lack of information sharing within each individual institution in any given area. This is especially prevalent in larger organisations with dozens or hundreds of employees like City Councils, health providers or housing associations which operate top-down systems for publishing polished and well promoted teams that they organise using a top-down structure. These organisations can promote these extremely effectively at these large-scale efforts, but struggle to find out smaller and more poorly resourced activities that are organised by people *within* their organisations. By contrast, smaller organisations struggle with any promotion at all, relying almost entirely on word of mouth and referrals to engage with local people.
 
-![Illustrations of the types of activities in PlaceCal, by the awesome [Squid](http://studiosquid.co.uk/)](https://cdn-images-1.medium.com/max/4520/1*wftpsojLmbr9FtIDX_dlUQ.png)*Illustrations of the types of activities in PlaceCal, by the awesome [Squid](http://studiosquid.co.uk/)*
+![Illustrations of the types of activities in PlaceCal, by the awesome [Squid](http://studiosquid.co.uk/)](https://cdn-images-1.medium.com/max/4520/1*wftpsojLmbr9FtIDX_dlUQ.png)
 
 We realised that to succeed, any joined-up source of information must seek to be the *de facto* information source in an area, that multiple agencies work on together. If we have a single source of information then there are many knock-on benefits: it can be used for [social prescribing](https://www.kingsfund.org.uk/publications/social-prescribing), as a source for printing out leaflets and posters, as a way to evaluate social isolation and social resources in an area, and a common tool for workers across many organisations to focus on together. In addition it could function as something of a local tourism office, making it easy for local newspapers, radio stations and YouTube channels for example to do weekly or monthly highlights as part of their regular programming.
 
@@ -97,7 +92,7 @@ We put together a successful proposal to gain funding from [CityVerve](https://c
 
 Despite the current focus on high tech solutions, [most people’s IT skills are actually very poor](https://www.nngroup.com/articles/computer-skill-levels/), with up to 40% of the *working-age* population struggling with basic skills like deleting an email. For older people it is likely much, much worse: see the graph below. With a project focusing on older people we knew this was likely to be much, much worse. We currently exist in a bubble where the most technically able 1–5% or so are making apps and websites for a high tech audience, while the average person installs [zero new apps a month](https://techcrunch.com/2017/08/25/majority-of-u-s-consumers-still-download-zero-apps-per-month-says-comscore/), for example. We needed a completely different approach — one focused around *capability*, not products.
 
-![Internet use stats showing a huge drop-off for over 70s ([Friemel, 2016](http://www.friemel.com/docs/Friemel_2016_NMS_Digital_Divide.pdf))](https://cdn-images-1.medium.com/max/3036/1*UpF-fU9lnboCpJ9A7hZMZg.png)*Internet use stats showing a huge drop-off for over 70s ([Friemel, 2016](http://www.friemel.com/docs/Friemel_2016_NMS_Digital_Divide.pdf))*
+![Internet use stats showing a huge drop-off for over 70s ([Friemel, 2016](http://www.friemel.com/docs/Friemel_2016_NMS_Digital_Divide.pdf))](https://cdn-images-1.medium.com/max/3036/1*UpF-fU9lnboCpJ9A7hZMZg.png)
 
 ### A capability-based network
 
@@ -115,7 +110,7 @@ I’m keen to emphasise that given the current landscape, this is quite pragmati
 
 We therefore decided to focus on the simplest possible way that people could list event information, and make it our job to publish it. This was to use the software that people are often already using: Facebook, Outlook, Google Calendar, or other similar free or cheap calendar software. All of these platforms as well as the human readable interface have a computer readable feed called an *iCal* or *.ics* feed that can be read in by other software. They have stable and mature interfaces that work on a variety of devices, saving us a huge amount of development time to produce. This gives people access to a large range of options, effectively meaning we have several alternate admin frontends out the box, with little development effort.
 
-![Examples of different calendar software being used](https://cdn-images-1.medium.com/max/4520/1*F1FY846eI2fNM2cLe8QPxg.png)*Examples of different calendar software being used*
+![Examples of different calendar software being used](https://cdn-images-1.medium.com/max/4520/1*F1FY846eI2fNM2cLe8QPxg.png)
 
 The platform was therefore designed to be a nexus for these calendar feeds. If we could train someone in each organisation and convince them of the value of maintaining a single canonical source of information using the software they were already using, then we should take that as our starting point and develop our platform to hook into these feeds. This allows organisations to focus on the key competencies of creating public events listings, without having to learn new software.
 
@@ -133,9 +128,9 @@ By contrast, we aim to move towards a network of people publishing their own dat
 
 I’ll write more on the technical implementation at a later date, especially as we’re about to do some heavy restructuring. I’ll leave a few initial revelations that we’re still tackling.
 
-**Location data.** One major finding was that geolocation was way, *way* less important than we thought. Who was putting on an event and what venue it were in were far more valuable than quantitative measurements like distance. This makes sense on reflection: people are more likely to go to venues they trust and know how to get to than they are to seek out something further away in an unfamiliar place. Social capital is strongly correlated with the distance you’re willing or able to travel for an event. While people with high social capital go to other countries or cities, let alone the other side of town for an event, most people with mobility issues are often limited to a radius of a few streets around their house. Of course, mobility isn’t the only indicator of social capital, but even within this limited parameter it has a marked effect. The [*Longitudinal Study of Ageing](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4731975/) *shows the vast differences in walking speed based on education and age, as well as other factors.
+**Location data.** One major finding was that geolocation was way, *way* less important than we thought. Who was putting on an event and what venue it were in were far more valuable than quantitative measurements like distance. This makes sense on reflection: people are more likely to go to venues they trust and know how to get to than they are to seek out something further away in an unfamiliar place. Social capital is strongly correlated with the distance you’re willing or able to travel for an event. While people with high social capital go to other countries or cities, let alone the other side of town for an event, most people with mobility issues are often limited to a radius of a few streets around their house. Of course, mobility isn’t the only indicator of social capital, but even within this limited parameter it has a marked effect. The [*Longitudinal Study of Ageing*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4731975/) shows the vast differences in walking speed based on education and age, as well as other factors.
 
-![“Men’s and Women’s age trajectories of walking speed by educational subpopulations” (Weber, 2016)](https://cdn-images-1.medium.com/max/2348/1*hf5yvCVpjPUaGlvwEbJ38Q.png)*“Men’s and Women’s age trajectories of walking speed by educational subpopulations” (Weber, 2016)*
+![“Men’s and Women’s age trajectories of walking speed by educational subpopulations” (Weber, 2016)](https://cdn-images-1.medium.com/max/2348/1*hf5yvCVpjPUaGlvwEbJ38Q.png)
 
 **Typology.** Our second major observation was that most of these events are not big one-off well promoted and ticketed shows, they are coffee mornings, daily exercise classes, gardening groups and craft sessions. This starts to explain why current platforms like Eventbrite or Facebook are serving these groups so poorly: all major platforms are based around a commercial ticketing and advertising model, not something wanted or needed for the organisations we are working with. This has fundamental knock-on effects for not just the design of the software but the conceptualisation of the platform as a whole: we’re dealing with hundreds of repeating events with little data, not one-offs targeting ticket sales with time and money for promotion. The resources to event ratio are orders of magnitude apart.
 
@@ -151,36 +146,36 @@ From the start we were set on using PlaceCal as a source of data for flyers and 
 
 In the end, [the two-sided leaflet](https://placecal.org/files/winter2017/placecal_winter2017.pdf) we produced for this was probably one of the most technical jobs I’ve ever been involved in. Through a series of neighbourhood meetings (pictured below) we contacted everyone we knew about their winter offers. Every single data point on the final leaflet came through multiple people and multiple agencies, and had to be reproduced on the [PlaceCal website](https://placecal.org/winter2017) itself. In the end though we created what we’re pretty sure is the most comprehensive winter events listing Hulme has ever seen.
 
-![The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)](https://cdn-images-1.medium.com/max/8252/1*S0XarN4RnI_BuxEKu3PsIw.jpeg)*The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)*
+![The lovely neighbourhood team sorting amends. L-R Lesley (One Manchester), Debbie (Martenscroft School), Patricia (Buzz), Kyra and Janet (People First Housing), Matt (MAFN), Mark (Squid), Patrick (MCC)](https://cdn-images-1.medium.com/max/8252/1*S0XarN4RnI_BuxEKu3PsIw.jpeg)
 
 Between us we distributed 10,000 leaflets and posters down the major shopping streets in Hulme and Moss Side, put them through people’s letter boxes, gave them to parents at schools, and generally plastered the area. By now you’re probably getting the point that by making one really good source of information together, we multiplied our capacity and reach. Through this process we had loads of conversations with local shops and businesses, made some more connections, and got some great feedback. We’re looking forward to being able to go back and see how people got on!
 
 ![](https://cdn-images-1.medium.com/max/9216/1*zId78gPQPZX-igrHycUPGA.jpeg)
 
-![10,000 leaflets is a lot of leaflets…](https://cdn-images-1.medium.com/max/9216/1*kgOQeACVpjqQhLgzCpUrrA.jpeg)*10,000 leaflets is a lot of leaflets…*
+![10,000 leaflets is a lot of leaflets…](https://cdn-images-1.medium.com/max/9216/1*kgOQeACVpjqQhLgzCpUrrA.jpeg)
 
-The event itself was a huge success with hundreds of people coming throughout the day. Over the course of the day we had carols from local schools in the park, live music, the One Manchester bus, a fire engine with a snow machine, loads of food from local organisations, mosques and churches, and of course the PlaceCal demonstrations which nearly got lost in the festivities! We also got to line up with Z Arts current production for people who wanted somewhere to go afterwards. The highlight for me was wondering why it had got quiet for a bit, before realising the imitable DJ [Lord Kemoy Walker](https://twitter.com/kemoywalker) had a dancefloor full of kids dancing to *Gangnam Style *just before wrapup!
+The event itself was a huge success with hundreds of people coming throughout the day. Over the course of the day we had carols from local schools in the park, live music, the One Manchester bus, a fire engine with a snow machine, loads of food from local organisations, mosques and churches, and of course the PlaceCal demonstrations which nearly got lost in the festivities! We also got to line up with Z Arts current production for people who wanted somewhere to go afterwards. The highlight for me was wondering why it had got quiet for a bit, before realising the imitable DJ [Lord Kemoy Walker](https://twitter.com/kemoywalker) had a dancefloor full of kids dancing to *Gangnam Style* just before wrapup!
 
 ![](https://cdn-images-1.medium.com/max/9216/1*ZJYaSYWbglYUByv4gv5M6A.jpeg)
 
-![Left: Christmas carols, Hulme style. Right: people gathering in the park with a fire engine and snow machine](https://cdn-images-1.medium.com/max/9216/1*s2PBRzoCxeKz_F1RPcpv_w.jpeg)*Left: Christmas carols, Hulme style. Right: people gathering in the park with a fire engine and snow machine*
+![Left: Christmas carols, Hulme style. Right: people gathering in the park with a fire engine and snow machine](https://cdn-images-1.medium.com/max/9216/1*s2PBRzoCxeKz_F1RPcpv_w.jpeg)
 
 ![](https://cdn-images-1.medium.com/max/9216/1*_Pmbf52ENwiLx0-j_sg3lA.jpeg)
 
-![Left: our lovely brass section. Right: Cllr Igbon introducing the choirs](https://cdn-images-1.medium.com/max/10368/1*HDBEwWSEi_q23WmD5aiKNw.jpeg)*Left: our lovely brass section. Right: Cllr Igbon introducing the choirs*
+![Left: our lovely brass section. Right: Cllr Igbon introducing the choirs](https://cdn-images-1.medium.com/max/10368/1*HDBEwWSEi_q23WmD5aiKNw.jpeg)
 
 ![](https://cdn-images-1.medium.com/max/2000/1*lFXbY-SfYhXxiEM_VB4Yqg.jpeg)
 
 ![](https://cdn-images-1.medium.com/max/9216/1*exgGXebzun8bZkDm5dbNVw.jpeg)
 
-![L-R: Presentation in action, people queueing for food, our audience in rapt attention](https://cdn-images-1.medium.com/max/3886/1*HwdxS1lNnGkjAiIISoHOMw.jpeg)*L-R: Presentation in action, people queueing for food, our audience in rapt attention*
+![L-R: Presentation in action, people queueing for food, our audience in rapt attention](https://cdn-images-1.medium.com/max/3886/1*HwdxS1lNnGkjAiIISoHOMw.jpeg)
 
 ![](https://cdn-images-1.medium.com/max/9216/1*RhePVdn4vzqD3eLoBYCMIA.jpeg)
 
-![Left: Lord Kemoy raising the roof. Right: one of our younger residents](https://cdn-images-1.medium.com/max/2430/1*eIzGm2VjN_Nno-Tq1Ma1sA.jpeg)*Left: Lord Kemoy raising the roof. Right: one of our younger residents*
+![Left: Lord Kemoy raising the roof. Right: one of our younger residents](https://cdn-images-1.medium.com/max/2430/1*eIzGm2VjN_Nno-Tq1Ma1sA.jpeg)
 
 I hope this article has given you an insight into not just the PlaceCal design process, but what we hope is the groundwork for a more connected way of delivering technology in a community context. In future pieces I’ll cover what we have planned for PlaceCal in 2018, and document this methodology that we’re calling Community Technology Partnerships. As it happens, we’re also starting a bus service…
 
 If you want to keep up to date then you can follow us here, on [Twitter](https://twitter.com/placecal) or [Facebook](https://www.facebook.com/placecal). If you’re an organisation looking to get involved in the platform, or a neighbourhood partnership, health provider or local authority who would like to have a chat with us about rolling our PlaceCal in your area, don’t hesitate to contact us by email: [support@placecal.org](mailto:support@placecal.org). The PlaceCal design and illustration is by the awesome [Squid](http://studiosquid.co.uk/).
 
-![Oh yeah — and we had a photobooth!](https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png)*Oh yeah — and we had a photobooth!*
+![Oh yeah — and we had a photobooth!](https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png)

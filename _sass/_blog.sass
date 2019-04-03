@@ -57,29 +57,39 @@
 
 .blog
   display: grid
-  grid-template-columns: $margin 1fr
-  border-width: 2px 0 0 0
-  border-style: solid
-  .sidenote
-    float: right
-    margin-right: -40%
-    width: 35%
-    font-size: 0.9rem
+  grid-template-columns: 1fr
+  +for-desktop-up
+    grid-template-columns: $margin 1fr
+    +border(top)
   &__title
     font-family: $freight
     text-align: left
     color: $primary
-    font-size: 2.5rem
+    font-size: 1.666667rem
     line-height: 1
+  &__subtitle
+    font-size: 1.44444rem
   &__content
-    border-width: 0 0 0 2px
-    border-style: solid
-    border-color: $primary
-    order: 2
+    +border(0 2px)
+    grid-row: 2
     color: $copy
-    width: 60%
-    padding-left: 5rem
-    img
-      max-width: 100%
+    padding: 0 1rem
+    max-width: 100%
+    overflow: hidden
+  img, iframe
+    max-width: 90%
+    margin: 0 auto
   header + p
     font-size: 1.25rem
+  &__aside
+    grid-row: 1
+    display: grid
+    grid-auto-flow: row
+    grid-template-columns: 1fr 1fr
+    +border(top)
+
+  // .sidenote
+  //   float: right
+  //   margin-right: -40%
+  //   width: 35%
+  //   font-size: 0.9rem
