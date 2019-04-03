@@ -6,6 +6,13 @@
       display: grid
       max-width: 100%
       grid-template-columns: repeat(12, 1fr)
+  &--contact .content
+    font-size: 1.44444rem
+    padding: 0 1em
+    a
+      color: $copy
+      text-decoration: none
+      +border(bottom)
 
 .window
   +border(all)
@@ -17,6 +24,7 @@
     color: $secondary
     padding: 0.5em 1em
     margin-top: 0
+    font-family: $balboa
   p
     color: $copy
     font-size: 1.11111rem
@@ -27,7 +35,7 @@
       background-color: $primary-lighter
       display: flex
       +border(top)
-  a
+  .more a
     display: inline-block
     font-family: $balboa
     background-color: $secondary
@@ -43,7 +51,7 @@
     flex: 1 1 auto
     background-color: $secondary
     +border(left)
-  &--3
+  &--highlight
     background-color: $primary-lighter
 
   @supports(display: grid)
