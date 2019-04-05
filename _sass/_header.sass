@@ -5,8 +5,10 @@
   +for-phone-only
     +border(2px 2px 0 2px)
   +for-tablet-portrait-up
-    grid-template-rows: auto 1fr
     grid-template-columns: auto 1fr auto
+    grid-template-rows: auto 1fr
+  +for-tablet-portrait-up
+    grid-template-rows: auto auto
   +for-desktop-up
     grid-template-columns: $margin 1fr auto
   &__title
@@ -15,10 +17,17 @@
     grid-column: 1
     grid-row: 1 / 2
     order: 1
+    height: 100%
     +border(bottom)
     +for-tablet-portrait-up
       grid-column: 1
       grid-row: 1
+    +for-tablet-landscape-up
+      grid-row: 1 / 3
+      display: grid
+      align-items: center
+      a
+        display: block
     +for-desktop-up
   &__h2
     text-indent: -9999px
@@ -35,6 +44,11 @@
       margin: 0.6rem 1rem
       width: 114.34px
       height: 31.75px
+    +for-tablet-landscape-up
+      background-image: url('/assets/images/logo_tablet_landscape.svg')
+      width: 159.03px
+      height: 61.38px
+      margin: 0.6rem 1.5rem
     +for-desktop-up
       background-image: url('/assets/images/logo_desktop.svg')
   &__toggle
@@ -64,12 +78,14 @@
     &.expanded
       display: block
     +for-tablet-portrait-up
+      grid-row: 1
       grid-column: 3
       display: block
-      grid-row: 1
       border-width: 0
+  .strip
+    +for-tablet-landscape-up
+      height: 2.44444rem
   &__strip--1
-    height: 2.77777rem
     grid-column: 1 / 3
     grid-row: 3
     +for-tablet-portrait-up
@@ -79,6 +95,8 @@
     +for-desktop-up
   &__strip--2
     display: none
-    +for-desktop-up
+    +for-tablet-landscape-up
+      +border(top)
+      display: block
       grid-column: 2 / 4
       grid-row: 2
