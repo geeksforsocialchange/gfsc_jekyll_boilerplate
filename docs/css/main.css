@@ -364,7 +364,15 @@ a.link {
     border-style: solid;
     border-color: #ea5b0c;
     border-width: 0 0 2px 2px;
-    line-height: 0; }
+    line-height: 0;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, transparent 50%, #ea5b0c 50%);
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s; }
+    .footer__icon:hover {
+      color: #f1f4d1;
+      background-position: -100% 0; }
     @media (min-width: 600px) {
       .footer__icon {
         border-style: solid;
@@ -377,11 +385,10 @@ a.link {
       width: 100%;
       height: 100%; }
     .footer__icon svg {
-      fill: #ea5b0c; }
-    .footer__icon a:hover {
-      background: #ea5b0c; }
-      .footer__icon a:hover svg {
-        fill: #f1f4d1; }
+      fill: #ea5b0c;
+      transition: 0.2s; }
+    .footer__icon a:hover svg {
+      fill: #f1f4d1; }
     .footer__icon--twitter {
       grid-column: 3; }
       @media (min-width: 600px) {

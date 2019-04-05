@@ -51,6 +51,14 @@
   &__icon
     +border(0 0 2px 2px)
     line-height: 0
+    background-size: 200% 100%
+    background-image: linear-gradient(to right, transparent 50%, $primary 50%)
+    -webkit-transition: 0.2s
+    -moz-transition: 0.2s
+    transition: 0.2s
+    &:hover
+      color: $secondary
+      background-position: -100% 0
     +for-tablet-portrait-up
       +border(left)
     a
@@ -61,8 +69,8 @@
       height: 100%
     svg
       fill: $primary
+      transition: 0.2s
     a:hover
-      background: $primary
       svg
         fill: $secondary
     &--twitter
