@@ -309,10 +309,13 @@ a.btn, .btn a {
       border-color: #ea5b0c;
       border-width: 2px 0 0 0;
       grid-template-columns: 8.6rem 1fr 3.6rem 3.6rem;
-      grid-template-rows: 2.77777rem auto; } }
-  @media (min-width: 600px) {
+      grid-template-rows: auto auto; } }
+  @media (min-width: 1024px) {
     .footer {
       grid-template-columns: 12.11111rem 1fr 3.6rem 3.6rem; } }
+  @media (min-width: 1200px) {
+    .footer {
+      grid-template-columns: 13.33333rem 1fr repeat(2, 6.666665rem); } }
   .footer__strip {
     grid-row: 1;
     grid-column: 1/-1;
