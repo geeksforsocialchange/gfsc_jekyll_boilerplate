@@ -40,22 +40,14 @@
       background-color: $primary-lighter
       display: flex
       +border(top)
-  .more a
-    display: inline-block
-    font-family: $balboa
+  .btn
     background-color: $secondary
-    height: 100%
-    text-decoration: none
-    +border(all)
-    padding: 0.25rem 0.5rem
     margin: 0.2rem
     +for-tablet-portrait-up
       font-size: 1.33333rem
     +for-tablet-landscape-up
       font-size: 1.44444rem
-    &:hover
-      background: $primary
-      color: $secondary
+
   span
     flex: 1 1 auto
     background-color: $secondary

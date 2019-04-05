@@ -29,24 +29,30 @@
     // +for-phone-only
     background-color: $primary
     color: $secondary
-    &:hover
-      background-color: $secondary
-      color: $primary
+    +for-phone-only
+      &:hover
+        background-color: $secondary
+        color: $primary
     +for-tablet-portrait-up
       padding: 0rem 1rem
       margin: 0
       background-color: transparent
       color: $primary
       line-height: 2
-      &:hover
-        background-color: $primary
-        color: $secondary
   li
     +for-tablet-portrait-up
+      background-size: 200% 100%
+      background-image: linear-gradient(to right, transparent 50%, $primary 50%)
+      -webkit-transition: 0.2s
+      -moz-transition: 0.2s
+      transition: 0.2s
+      &:hover
+        a
+          color: $secondary
+          +border(0)
+        background-position: -100% 0
       +border(left)
       display: grid
       justify-content: center
       align-items: center
       height: 100%
-      &:hover
-        background: $primary

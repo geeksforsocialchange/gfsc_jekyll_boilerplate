@@ -4,5 +4,11 @@ a.btn, .btn a
   border: 2px solid $primary
   padding: 0.66666rem 1rem
   font-family: $balboa
-  font-size: 1.11111rem
-  +animate
+  background-size: 200% 100%
+  background-image: linear-gradient(to right, transparent 50%, $primary 50%)
+  -webkit-transition: 0.2s
+  -moz-transition: 0.2s
+  transition: 0.2s
+  &:hover
+    color: $secondary
+    background-position: -100% 0
