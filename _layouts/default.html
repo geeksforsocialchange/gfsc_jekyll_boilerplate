@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-  <div class="page">
+  <div class="page__wrapper">
     <header>
       <div class="header">
         <h2 class="header__title">
@@ -40,16 +40,16 @@
       </div>
     </header>
     <main>
-      <article>
+      <article class="page page--{{ page.layout }}">
         {% unless page.layout == 'blog' %}
           <header>
-            <h1 class="page-title">{{ page.title }}</h1>
+            <h1 class="page__title">{{ page.title }}</h1>
           </header>
         {% endunless %}
         {% if page.layout == 'default' %}
           <hr class="fancy unless-mobile">
         {% endif %}
-        <div class="{{ page.layout }}">
+        <div class="page__content">
           {{ content }}
         </div>
       </article>

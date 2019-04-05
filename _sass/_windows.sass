@@ -1,16 +1,11 @@
 .windows
   margin: 1rem auto
-  +for-tablet-portrait-up
-    margin: 2rem 3rem
-  @supports(display: grid)
-    +for-desktop-up
-      margin-top: 3rem
-      display: grid
-      max-width: 100%
-      grid-template-columns: repeat(12, 1fr)
+  &--index
+    margin-top: 2rem
   &--contact .content
     font-size: 1.44444rem
     padding: 0 1em
+    margin: 1rem 0
     a
       color: $copy
       text-decoration: none
@@ -56,11 +51,30 @@
   &--highlight
     background-color: $primary-lighter
 
-  @supports(display: grid)
+@supports(display: grid)
+  .windows
+    +for-tablet-portrait-up
+      display: grid
+      grid-template-columns: repeat(12, 1fr)
+      max-width: 100%
     +for-desktop-up
-      &--1
-        grid-column:  3 / 9
-      &--2
-        grid-column:  5 / 11
-      &--3
-        grid-column:  4 / 10
+
+    &--index .window
+      grid-column:  2 / 12
+      +for-desktop-up
+        &--1
+          grid-column:  3 / 9
+        &--2
+          grid-column:  5 / 11
+        &--3
+          grid-column:  4 / 10
+    &--contact .window
+      +for-tablet-portrait-up
+        margin-top: 2rem
+        margin-bottom: 2rem
+        &--1
+          grid-column:  3 / 9
+        &--2
+          grid-column: 5 / 11
+        &--3
+          grid-column: 3 / 9

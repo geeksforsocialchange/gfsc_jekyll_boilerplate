@@ -74,7 +74,7 @@
   display: grid
   grid-template-columns: 1fr
   +for-tablet-portrait-up
-    +border(0)
+    +border(top)
   &__title
     font-family: $freight
     text-align: left
@@ -99,7 +99,7 @@
       grid-row: 2
       grid-column: 1
       +border(0)
-      padding: 0 4rem
+      padding: 0 5rem
   img, iframe
     max-width: 90%
     margin: 0 auto
@@ -115,7 +115,7 @@
       grid-row: 1
       grid-column: 1
       +border(0)
-      padding: 0 4rem
+      padding: 0 5rem
       display: block
   &__meta
     +for-tablet-portrait-up

@@ -3,13 +3,13 @@ body
   background-image: url('/assets/images/background.png')
   background-size: 50px 50px
 
-.page
+.page__wrapper
   margin: 1rem auto
   max-width: 1400px
   +for-tablet-portrait-up
     +border(all)
 
-.page-title
+.page__title
   +border(all)
   margin: 0
   text-align: center
@@ -18,7 +18,16 @@ body
     +border(2px 0 0)
     padding: 2rem 8rem
 
-.default
+.page--contact
+  .page__title
+    +for-tablet-portrait-up
+      +border(2px 0)
+
+.page--blog
+  .page__content
+    +border(top)
+
+.page--default .page__content
   padding: 1rem 1.5rem
   +for-phone-only
     +border(0 2px)
