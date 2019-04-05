@@ -281,6 +281,17 @@ a.btn, .btn a {
     color: #f1f4d1;
     background-position: -100% 0; }
 
+a.link {
+  display: inline-block;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to top, #ea5b0c 50%, transparent 50%);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
+  a.link:hover {
+    color: #f1f4d1 !important;
+    background-position: 0 100%; }
+
 .footer {
   border-style: solid;
   border-color: #ea5b0c;
