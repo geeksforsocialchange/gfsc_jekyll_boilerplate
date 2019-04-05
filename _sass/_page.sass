@@ -15,17 +15,13 @@ body
   text-align: center
   padding: 1.5rem 2rem
   +for-tablet-portrait-up
-    +border(2px 0 0)
+    +border(bottom)
     padding: 2rem 8rem
 
-.page--contact, .page--home
+.page--blog-index, .page--default
   .page__title
     +for-tablet-portrait-up
-      +border(2px 0)
-
-.page--blog
-  .page__content
-    +border(top)
+      +border(0)
 
 .page--default .page__content
   padding: 1rem 1.5rem
@@ -40,3 +36,12 @@ body
     p
       font-size: 1.222222rem
       line-height: 1.454545
+  +for-tablet-landscape-up
+    margin-left: $margin-tablet-landscape
+    +border(left)
+    padding: 1rem 2rem
+    h2
+      margin-top: 0.5rem
+  +for-tablet-landscape-up
+    margin: 0 $margin-desktop
+    +border(0 2px)

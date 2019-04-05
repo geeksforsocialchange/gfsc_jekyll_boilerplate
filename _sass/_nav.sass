@@ -33,7 +33,7 @@
       background-color: $secondary
       color: $primary
     +for-tablet-portrait-up
-      padding: 0.5rem 1rem
+      padding: 0rem 1rem
       margin: 0
       background-color: transparent
       color: $primary
@@ -41,8 +41,6 @@
       &:hover
         background-color: $primary
         color: $secondary
-    +for-tablet-landscape-up
-      padding: 0 1rem
   li
     +for-tablet-portrait-up
       +border(left)
@@ -50,3 +48,5 @@
       justify-content: center
       align-items: center
       height: 100%
+      &:hover
+        background: $primary
