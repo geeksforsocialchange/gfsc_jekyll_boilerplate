@@ -543,8 +543,10 @@ a.btn, .btn a {
   border-style: solid;
   border-color: #ea5b0c;
   border-width: 0 2px 2px 2px;
-  background-size: 1920px 200px;
-  background-image: url("/assets/images/circles.svg"); }
+  background-size: 98px 55px;
+  background-image: url("/assets/images/circles.svg");
+  background-position-y: center;
+  min-height: 55px; }
   @media (max-width: 599px) {
     .fancy--no-phone {
       display: none; } }
@@ -613,7 +615,7 @@ a.btn, .btn a {
 body {
   margin: 0 1rem;
   background-image: url("/assets/images/background.png");
-  background-size: 50px 50px; }
+  background-size: 40px 40px; }
 
 .page__wrapper {
   margin: 1rem auto;
@@ -692,11 +694,13 @@ body {
 .strip {
   background-repeat: repeat; }
   .strip--circles {
-    background-size: 1920px 200px;
-    background-image: url("/assets/images/circles.svg"); }
+    background-size: 98px 55px;
+    background-image: url("/assets/images/circles.svg");
+    background-position-y: center;
+    min-height: 55px; }
   .strip--lines {
-    background-size: 1920px 400px;
-    background-image: url("/assets/images/lines.svg"); }
+    background: repeating-linear-gradient(120deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 20px);
+    min-height: 50px; }
 
 .venn {
   text-align: center; }
@@ -745,7 +749,7 @@ body {
       text-align: left;
       margin: 0; }
   #venn path {
-    fill: #f1f4d1;
+    fill: transparent;
     cursor: pointer; }
   #venn polyline {
     stroke: #ea5b0c;

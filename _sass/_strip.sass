@@ -1,8 +1,11 @@
 .strip
   background-repeat: repeat
   &--circles
-    background-size: 1920px 200px
+    background-size: 98px 55px
     background-image: url('/assets/images/circles.svg')
+    background-position-y: center
+    min-height: 55px
   &--lines
-    background-size: 1920px 400px
-    background-image: url('/assets/images/lines.svg')
+    // Adding extra pixels stops it aliasing in
+    background: repeating-linear-gradient(120deg, transparent 0, transparent 7px, $primary 8px, $primary 9px, transparent 10px, transparent 20px)
+    min-height: 50px
