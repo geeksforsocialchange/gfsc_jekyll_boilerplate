@@ -27,8 +27,17 @@
     +for-desktop-up
       width: 33%
 
+#venn-mobile
+  display: block
+  margin: 0 auto
+  +for-tablet-portrait-up
+    display: none
+
 #venn
   max-width: 1300px
+  display: none
+  +for-tablet-portrait-up
+    display: block
 
   path, polyline, foreignObject
     transition-duration: 200ms

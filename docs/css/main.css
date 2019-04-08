@@ -749,8 +749,19 @@ body {
       .venn__subtitle {
         width: 33%; } }
 
+#venn-mobile {
+  display: block;
+  margin: 0 auto; }
+  @media (min-width: 600px) {
+    #venn-mobile {
+      display: none; } }
+
 #venn {
-  max-width: 1300px; }
+  max-width: 1300px;
+  display: none; }
+  @media (min-width: 600px) {
+    #venn {
+      display: block; } }
   #venn path, #venn polyline, #venn foreignObject {
     transition-duration: 200ms; }
   #venn polyline, #venn foreignObject {
