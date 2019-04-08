@@ -26,10 +26,18 @@
       margin-bottom: 2rem
     +for-desktop-up
       width: 33%
+    &--mobile
+      display: block
+      font-family: $balboa
+      font-size: 1.11111rem
+      margin: 2rem 0
+      +for-tablet-portrait-up
+        display: none
 
 #venn-mobile
   display: block
   margin: 0 auto
+  width: 95%
   +for-tablet-portrait-up
     display: none
 

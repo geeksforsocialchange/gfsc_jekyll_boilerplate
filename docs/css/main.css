@@ -748,10 +748,19 @@ body {
     @media (min-width: 1200px) {
       .venn__subtitle {
         width: 33%; } }
+    .venn__subtitle--mobile {
+      display: block;
+      font-family: balboa, sans-serif;
+      font-size: 1.11111rem;
+      margin: 2rem 0; }
+      @media (min-width: 600px) {
+        .venn__subtitle--mobile {
+          display: none; } }
 
 #venn-mobile {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 95%; }
   @media (min-width: 600px) {
     #venn-mobile {
       display: none; } }
