@@ -22,7 +22,9 @@ This is methodology is called *asset-based community development *or *ABCD*: aid
 
 *Before continuing, it’s worth noting how hard it can be to write up this kind of work. What “the partnership” is or means to anyone at any given moment can be extremely hard (and often undesirable) to pin down. Decentralised resident-led groups, like most things in society, are complex structures that we believe offer the only real possibility for genuine change: however in doing so they make it extremely hard to write about exactly who did what when without making it sound like credit is being taken for the actions of a wider group. Therefore: when the rest of this article refers to “the partnership” or “we” it is referring specifically to me (Kim Foale), the Hulme Age Friendly Board, and PHASE@MMU working together to create PlaceCal and its requisite theoretical background. If anyone has any ideas how to resolve this issue with language, we are all ears!*
 
-![](https://cdn-images-1.medium.com/max/2000/1*xq77VmzDQw4mN2mqmxpopg.png)
+{% include image.html url="https://cdn-images-1.medium.com/max/2000/1*xq77VmzDQw4mN2mqmxpopg.png" description="A photo of a neighbourhood partnership in action" %}
+
+
 
 ![Left: a neighbourhood meeting in Old Moat. Right: an example Hulme board meeting.](https://cdn-images-1.medium.com/max/2000/1*Hj6XTsBBP89GMrGghXQdew.png)
 
