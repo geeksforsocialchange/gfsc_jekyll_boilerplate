@@ -791,7 +791,9 @@ body {
 
 #venn {
   max-width: 1300px;
-  display: none; }
+  display: none;
+  margin: 0 auto;
+  text-align: center; }
   @media (min-width: 640px) {
     #venn {
       display: block; } }
