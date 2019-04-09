@@ -2,7 +2,7 @@
 layout: blog
 title: No False Users
 subtitle: Don't confuse fact and fiction when creating ad-hoc user stories
-author: Dr Kim Foale
+author: kim
 ---
 
 I'm always struck in technical meetings how quickly people dream up imaginary people. People with _very_ specific needs that they didn't know they had. A recent meeting I was in suggested that if streetlights and hospital shift patterns were connected to the Internet of Things, we could potentially make sure that nurses can get home safely at given times, by increasing lighting at the end of shifts. Or that by comparing bus times with air pollution data, we can start to think about where buses are idling and reduce respiratory disease. But of course, they're just possibilities! We don't know yet! Think of the potential!

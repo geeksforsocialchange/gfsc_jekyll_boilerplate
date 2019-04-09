@@ -68,7 +68,8 @@
     &:first-child
       +border(0 0 2px 2px)
     +for-tablet-portrait-up
-      padding: 1.25rem 0.2rem
+      padding: 1.25rem
+      text-align: left
       +border(top)
       &:first-child
         +border(0)
@@ -87,7 +88,7 @@
     +border(top)
   +for-tablet-landscape-up
     grid-template-columns: $margin-tablet-landscape 1fr
-  +for-tablet-landscape-up
+  +for-desktop-up
     grid-template-columns: $margin-desktop 1fr
   &__title
     font-family: $freight
@@ -134,14 +135,13 @@
     font-size: 1.25rem
   &__aside
     display: grid
-    grid-auto-flow: row
     grid-template-columns: 1fr 1fr
     +for-tablet-portrait-up
+      grid-template-columns: auto auto 50px 1fr
       grid-row: 1
       grid-column: 1
       +border(0)
       padding: 0 5rem
-      display: block
     +for-tablet-landscape-up
       grid-column: 1
       order: 1
@@ -150,21 +150,37 @@
       padding: 0
   &__meta
     +balboa
-    display: inline-block
     font-size: 1.11111rem
     padding: 0.5rem 1.5rem
     text-align: center
     +border(0 2px 2px 0)
-    &:first-child
-      +border(0 2px 2px 2px)
+    +for-phone-only
+      &:first-child
+        +border(0 2px 2px 2px)
+    &--avatar
+      padding: 0
+      text-align: center
+      line-height: 1
+      display: grid
+      justify-content: center
+      align-items: center
+      img, picture
+        width: 40px
+        border-radius: 50%
+      +for-phone-only
+        display: none
+      +for-tablet-landscape-up
+        img, picture
+          width: 100%
+          max-width: 100%
     +for-tablet-portrait-up
       margin-top: 2rem
-      +border(all)
-      &:first-child
-        +border(2px 0px 2px 2px)
+      +border(2px 0px 2px 2px)
+      &:last-child
+        +border(all)
     +for-tablet-landscape-up
       +border(bottom)
-      &:first-child
+      &:last-child
         +border(bottom)
       padding: 1.25rem
       font-size: 1.333333rem

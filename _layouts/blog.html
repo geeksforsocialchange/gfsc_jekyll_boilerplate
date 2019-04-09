@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% assign author = site.data.authors[page.author] %}
 <div class="blog">
   <div class="blog__content">
     <header>
@@ -17,6 +18,15 @@ layout: default
   </div>
 
   <aside class="blog__aside">
-    <time class="blog__meta" datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time><div class="blog__meta" rel="author">By {{ page.author }}</div>
+    <time class="blog__meta" datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
+    <div class="blog__meta" rel="author">By {{ author.name }}</div>
+    <div class="blog__meta blog__meta--avatar">
+      <picture>
+        <source media="(max-width: 1023px)" srcset="/assets/images/authors/{{ author.avatar-small }}">
+        <source media="(min-width: 1024px)" srcset="/assets/images/authors/{{ author.avatar-large }}">
+        <img src="/assets/images/authors/{{ author.avatar-large }}"
+           alt="A photo of {{ page.author }}">
+      </picture>
+    </div>
   </aside>
 </div>

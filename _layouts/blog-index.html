@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
+  {% assign author = site.data.authors[post.author] %}
   <hr class="fancy">
   <article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="teaser">
     <div class="teaser__content">
@@ -19,7 +20,7 @@ layout: default
     </div>
     <aside class="teaser__aside">
       <time class="teaser__meta" datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-      <div class="teaser__meta" rel="author">By {{ post.author }}</div>
+      <div class="teaser__meta" rel="author">By {{ author.name }}</div>
     </aside>
   </article>
 {% endfor %}
