@@ -2,7 +2,7 @@ html {
   font-size: 18px; }
 
 body {
-  font-family: freight-text-pro, sans-serif;
+  font-family: freight-text-pro, serif;
   background-color: #f1f4d1;
   color: #ea5b0c;
   font-weight: 400;
@@ -27,7 +27,7 @@ h1 {
 
 h2 {
   font-size: 1.66667rem;
-  font-family: freight-text-pro, sans-serif;
+  font-family: freight-text-pro, serif;
   line-height: 1.2;
   margin-top: 0.25em; }
   @media (min-width: 1024px) {
@@ -63,7 +63,7 @@ p {
     .teaser {
       grid-template-columns: 13.33333rem 1fr; } }
   .teaser__title {
-    font-family: freight-text-pro, sans-serif;
+    font-family: freight-text-pro, serif;
     font-size: 1.666667rem;
     line-height: 1;
     margin-bottom: 1rem; }
@@ -147,6 +147,11 @@ p {
 .blog {
   display: grid;
   grid-template-columns: 1fr; }
+  @media (max-width: 639px) {
+    .blog {
+      border-style: solid;
+      border-color: #ea5b0c;
+      border-width: 2px 0 0 0; } }
   @media (min-width: 1024px) {
     .blog {
       grid-template-columns: 12.11111rem 1fr; } }
@@ -154,7 +159,7 @@ p {
     .blog {
       grid-template-columns: 13.33333rem 1fr; } }
   .blog__title {
-    font-family: freight-text-pro, sans-serif;
+    font-family: freight-text-pro, serif;
     text-align: left;
     color: #ea5b0c;
     font-size: 1.666667rem;
@@ -200,7 +205,8 @@ p {
         margin-right: 13.33333rem;
         border-style: solid;
         border-color: #ea5b0c;
-        border-width: 0 2px 0 0; } }
+        border-width: 0 2px 0 0;
+        padding: 0 5rem; } }
   .blog img, .blog iframe {
     max-width: 90%;
     margin: 0 auto; }
@@ -569,7 +575,8 @@ a.link {
       min-height: 55px; } }
 
 .nav {
-  font-family: balboa;
+  font-family: balboa, sans-serif;
+  font-weight: 300;
   font-size: 1.55555rem; }
   @media (min-width: 640px) {
     .nav {
@@ -638,7 +645,9 @@ a.link {
 body {
   margin: 0 1rem;
   background-image: url("/assets/images/background.png");
-  background-size: 35px 35px; }
+  background-size: 35px 35px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
   @media (min-width: 640px) {
     body {
       margin: 1.5rem 1.5rem; } }
@@ -700,7 +709,7 @@ body {
       border-width: 0 0 0 2px;
       padding: 1rem 2rem; }
       .page--default .page__content h2 {
-        margin-top: 0.5rem; } }
+        margin-top: 1rem; } }
   @media (min-width: 1024px) {
     .page--default .page__content {
       margin: 0 13.33333rem;
@@ -804,7 +813,7 @@ body {
   #venn foreignObject {
     width: 230px;
     height: 200px;
-    font-family: freight-text-pro, sans-serif;
+    font-family: freight-text-pro, serif;
     font-size: 1rem; }
     #venn foreignObject p {
       color: #565544;
@@ -918,7 +927,9 @@ body {
   .window .btn {
     background-color: #f1f4d1;
     margin: 0.2rem;
-    padding: 0.25rem 1rem; }
+    padding: 0.25rem 1rem;
+    min-width: 7rem;
+    text-align: center; }
     @media (min-width: 640px) {
       .window .btn {
         font-size: 1.111111rem; } }
