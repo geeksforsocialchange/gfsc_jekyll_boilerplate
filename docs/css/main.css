@@ -783,10 +783,12 @@ body {
       .strip--circles {
         min-height: 55px; } }
   .strip--lines {
+    background: -webkit-repeating-linear-gradient(120deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 16px);
     background: repeating-linear-gradient(120deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 16px);
     min-height: 40px; }
     @media (min-width: 1200px) {
       .strip--lines {
+        background: -webkit-repeating-linear-gradient(120deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 22px);
         background: repeating-linear-gradient(120deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 22px); } }
 
 .venn {
