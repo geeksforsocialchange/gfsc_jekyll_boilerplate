@@ -18,19 +18,22 @@
     margin-top: 2rem
     margin-bottom: 4rem
     color: $primary
-    font-weight: 300
+    font-family: $balboa
+    font-weight: 200
+    font-size: 1rem
     // TODO: Confirm font with Mark
     +for-tablet-portrait-up
       display: block
       width: 66%
       margin-bottom: 2rem
+    +for-tablet-portrait-up
+      font-size: 1.44444rem
     +for-desktop-up
       width: 33%
     &--mobile
       display: block
-      font-family: $balboa
       font-size: 1.11111rem
-      margin: 2rem 0
+      margin: 1rem 0
       +for-tablet-portrait-up
         display: none
 
@@ -38,6 +41,7 @@
   display: block
   margin: 0 auto
   width: 95%
+  max-width: 320px
   +for-tablet-portrait-up
     display: none
 

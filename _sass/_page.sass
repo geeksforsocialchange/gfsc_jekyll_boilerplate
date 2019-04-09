@@ -2,6 +2,8 @@ body
   margin: 0 1rem
   background-image: url('/assets/images/background.png')
   background-size: 35px 35px
+  +for-tablet-portrait-up
+    margin: 1.5rem 1.5rem
 
 .page__wrapper
   margin: 1rem auto
@@ -16,7 +18,9 @@ body
   padding: 1.5rem 2rem
   +for-tablet-portrait-up
     +border(bottom)
-    padding: 2rem 8rem
+    padding: 1.5rem 8rem
+  +for-desktop-up
+    padding: 3rem 8rem
 
 .page--blog-index, .page--default
   .page__title
