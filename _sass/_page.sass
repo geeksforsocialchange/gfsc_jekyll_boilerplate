@@ -9,9 +9,11 @@ body
 
 .page__wrapper
   margin: 1rem auto
-  max-width: 1400px
+  max-width: 1250px
   +for-tablet-portrait-up
     +border(all)
+  @media(min-width: 1600px)
+    max-width: 1400px
 
 .page__title
   +border(all)
