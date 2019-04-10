@@ -1004,7 +1004,8 @@ body {
     font-size: 1.111111rem; }
     @media (min-width: 1024px) {
       .window .btn {
-        font-size: 1.333333rem; } }
+        font-size: 1.333333rem;
+        padding: 0.5rem 1rem; } }
   .window span {
     flex: 1 1 auto;
     background-color: #f1f4d1;
