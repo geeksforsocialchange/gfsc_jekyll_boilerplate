@@ -9,32 +9,37 @@ body {
   line-height: 1.444444; }
   @media (min-width: 640px) {
     body {
-      font-size: 1.22222rem; } }
+      font-size: 1.22222rem;
+      line-height: 1.454545; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: balboa, sans-serif;
   font-weight: 300; }
 
 h1 {
-  font-size: 1.55555rem;
+  font-size: 1.55556rem;
   line-height: 1; }
   @media (min-width: 1024px) {
     h1 {
       font-size: 2.222222rem; } }
   @media (min-width: 1200px) {
     h1 {
-      font-size: 3.5rem; } }
+      font-size: 3.333333rem; } }
 
-h2 {
+h2, .h2 {
   font-size: 1.66667rem;
-  font-family: freight-text-pro, serif;
   line-height: 1.2;
+  font-family: freight-text-pro, serif;
   margin-top: 0.25em; }
+  @media (min-width: 640px) {
+    h2, .h2 {
+      font-size: 1.944444rem;
+      line-height: 1.05; } }
   @media (min-width: 1024px) {
-    h2 {
+    h2, .h2 {
       font-size: 2.222222rem; } }
   @media (min-width: 1200px) {
-    h2 {
+    h2, .h2 {
       font-size: 2.5rem; } }
 
 a, h1, h2, h3 {
@@ -65,7 +70,7 @@ p {
   .teaser__title {
     font-family: freight-text-pro, serif;
     font-size: 1.666667rem;
-    line-height: 1;
+    line-height: 1.2;
     margin-bottom: 1rem; }
     .teaser__title a {
       text-decoration: none; }
@@ -73,10 +78,12 @@ p {
         text-decoration: underline; }
     @media (min-width: 640px) {
       .teaser__title {
-        font-size: 2.22222rem; } }
+        font-size: 2.22222rem;
+        line-height: 1.05; } }
   .teaser__subtitle {
     font-size: 1.44444rem;
     font-style: italic;
+    font-weight: 500;
     paddding: 0;
     margin: 0; }
   .teaser__content {
@@ -128,7 +135,7 @@ p {
       border-width: 0 0 2px 2px; }
     @media (min-width: 640px) {
       .teaser__meta {
-        padding: 1.25rem;
+        padding: 1.25rem 0.75rem;
         text-align: left;
         border-style: solid;
         border-color: #ea5b0c;
@@ -145,6 +152,9 @@ p {
     color: #565544; }
     .teaser__excerpt p:first-child {
       margin-top: 1rem; }
+    @media (min-width: 1024px) {
+      .teaser__excerpt {
+        font-weight: 500; } }
 
 .blog {
   display: grid;
@@ -174,10 +184,13 @@ p {
         font-size: 2.5rem; } }
   .blog__subtitle {
     font-size: 1.44444rem;
-    font-style: italic; }
+    font-style: italic;
+    font-weight: 500; }
     @media (min-width: 640px) {
       .blog__subtitle {
         font-size: 1.555555rem; } }
+  .blog__body p:first-child {
+    font-weight: 500; }
   .blog__content {
     border-style: solid;
     border-color: #ea5b0c;
@@ -741,7 +754,8 @@ body {
       .page--default .page__content h2 {
         margin-top: 2rem; }
       .page--default .page__content h2 + p {
-        font-size: 1.44444rem; }
+        font-size: 1.44444rem;
+        font-weight: 500; }
       .page--default .page__content p {
         font-size: 1.222222rem;
         line-height: 1.454545; } }
@@ -754,7 +768,7 @@ body {
       padding: 1rem 2rem; }
       .page--default .page__content h2 {
         margin-top: 1rem; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1200px) {
     .page--default .page__content {
       margin: 0 13.33333rem;
       border-style: solid;
@@ -946,6 +960,7 @@ body {
   margin-bottom: 1.5rem; }
   .window h2 {
     font-size: 1.33333rem;
+    line-height: 1.083333;
     text-transform: uppercase;
     background-color: #ea5b0c;
     color: #f1f4d1;
@@ -953,23 +968,25 @@ body {
     margin-top: 0;
     font-family: balboa, sans-serif;
     font-weight: 300; }
-    @media (min-width: 640px) {
-      .window h2 {
-        font-size: 1.333333rem; } }
     @media (min-width: 1200px) {
       .window h2 {
-        font-size: 1.777778rem; } }
+        font-size: 1.777778rem;
+        line-height: 1; } }
   .window p {
     color: #565544;
     font-size: 1.11111rem;
+    line-height: 1.4;
     padding: 0em 1em;
     margin: 1rem 0; }
     @media (min-width: 640px) {
       .window p {
-        font-size: 1.333333rem; } }
+        font-size: 1.333333rem;
+        line-height: 1.166666; } }
     @media (min-width: 1200px) {
       .window p {
-        font-size: 1.777778rem; } }
+        font-size: 1.777778rem;
+        line-height: 1.25;
+        padding: 0.25em 1em; } }
     .window p.more {
       padding: 0;
       margin: 0;
@@ -983,13 +1000,11 @@ body {
     margin: 0.2rem;
     padding: 0.25rem 1rem;
     min-width: 7rem;
-    text-align: center; }
-    @media (min-width: 640px) {
-      .window .btn {
-        font-size: 1.111111rem; } }
+    text-align: center;
+    font-size: 1.111111rem; }
     @media (min-width: 1024px) {
       .window .btn {
-        font-size: 1.44444rem; } }
+        font-size: 1.333333rem; } }
   .window span {
     flex: 1 1 auto;
     background-color: #f1f4d1;
