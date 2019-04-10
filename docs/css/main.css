@@ -696,7 +696,7 @@ body {
 
 .page__wrapper {
   margin: 1rem auto;
-  max-width: 1250px; }
+  max-width: 1200px; }
   @media (min-width: 640px) {
     .page__wrapper {
       border-style: solid;
