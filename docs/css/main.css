@@ -844,6 +844,12 @@ body {
   @media (min-width: 640px) {
     #venn-mobile {
       display: none; } }
+  #venn-mobile .h2 {
+    font-family: balboa, sans-serif;
+    font-weight: 300;
+    fill: #ea5b0c; }
+  #venn-mobile ellipse {
+    stroke: #ea5b0c; }
 
 #venn {
   max-width: 1300px;

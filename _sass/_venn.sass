@@ -38,12 +38,17 @@
         display: none
 
 #venn-mobile
+  +for-tablet-portrait-up
+    display: none
   display: block
   margin: 0 auto
   width: 95%
   max-width: 320px
-  +for-tablet-portrait-up
-    display: none
+  .h2
+    +balboa
+    fill: $primary
+  ellipse
+    stroke: $primary
 
 #venn
   max-width: 1300px

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: No False Users
-subtitle: Don't confuse fact and fiction when creating ad-hoc user stories
+subtitle: Don't confuse fact and fiction when creating ad-hoc user stories.
 author: kim
 ---
 
