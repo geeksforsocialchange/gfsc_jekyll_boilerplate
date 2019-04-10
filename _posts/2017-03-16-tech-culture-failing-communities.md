@@ -36,13 +36,9 @@ Some of these systems are more prescriptive than others. Taking the Facebook eve
 Clearly, real-life is not like this. Community information is huge, and varied, and a tiny fraction of it ends up online in an organised way. Messy knowledge ends up being word of mouth, and reaches very few people. Some examples of this might be:
 
 * You can book a free room in a community campus building (if you know who to talk to)
-
 * There is an underused computer suite in a local housing estate
-
 * The local library runs free computer classes
-
 * The community garden centre is looking for new directors
-
 * A new planning application that would affect the area
 
 Yes, you might find these things out via a chance post on social media, if you use it. But we do not have even the mechanisms to store these things and present them to the community in an accessible way. Corporate apps work fine for solved problems for engaged users; they do not work well to enable community resilience. A CTP aims to collect knowledge first, and worry about what to do with it later. Our systems should not be deciding what the important information is: we should.
@@ -60,7 +56,8 @@ If what matters is people getting access to accurate, useful, timely information
 For example, we could automate things like aggregated posters and brochures of local events, enable people to work together to distribute flyers, or create interactive displays of current planning applications. We should not see the technology as the goal in itself, but creating informed and engaged local citizens who are able to get what they want from their neighbourhood.
 
 The [596 Acres](http://596acres.org/) project is a particularly good example of this. In their own words:
-> *The seeds of 596 Acres were planted when founder Paula Z. Segal obtained a spreadsheet of all the publicly owned vacant land in Brooklyn and created a map of it to distribute. This map was the first tool designed to let people know about the unharnessed potential hidden in plain sight throughout the city’s neighborhoods. It appeared on a poster highlighting vacant public land in Brooklyn, and as an interactive tool on our website. Getting the word out — in print and online — has been at the heart of the project ever since.*
+
+> The seeds of 596 Acres were planted when founder Paula Z. Segal obtained a spreadsheet of all the publicly owned vacant land in Brooklyn and created a map of it to distribute. This map was the first tool designed to let people know about the unharnessed potential hidden in plain sight throughout the city’s neighborhoods. It appeared on a poster highlighting vacant public land in Brooklyn, and as an interactive tool on our website. Getting the word out — in print and online — has been at the heart of the project ever since.
 
 I went to a fantastic presentation on this project where this point was emphasised. The website and open data provided the impetus and structure to get the project rolling, and it couldn’t have happened without it. But it was going to every plot of land and zip-tying the contact details to it, answering the phone, and talking to people that made the project a success.
 
@@ -125,13 +122,9 @@ Most organisations and individuals have tiny budgets (or no budgets) for technic
 This post is the start of a discussion about the axioms of the technology we product: the things we think so self-evident we barely inspect them. It’s time to start being more critical about the nature of the things we are making, who they are for, and what impact they have on people, community, and planet. We need to get back to a more holistic, community-grounded technology culture that we own and develop ourselves, for the good of everyone. I’ll leave you with Tony Benn’s [classic five questions](https://www.thenation.com/article/tony-benn-and-five-essential-questions-democracy/) about democracy that we should perhaps start applying to to technology we use and create as well:
 
 * What power have you got?
-
 * Where did you get it from?
-
 * In whose interests do you exercise it?
-
 * To whom are you accountable?
-
 * How can we get rid of you?
 
 Stay tuned for more on the CTP concept, including details on the pilots due to start in the next few months! Comments and suggestions welcomed with open arms. If you like, find out more about my work and practice on my agency site: [Geeks for Social Change](http://gfsc.network).
