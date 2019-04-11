@@ -1136,7 +1136,7 @@ body {
     border: 1px solid #ea5b0c;
     font-family: balboa, sans-serif;
     font-weight: 300; }
-    @media (min-width: 1600px) {
+    @media (min-width: 1200px) {
       .window h2 {
         font-size: 1.777778rem;
         line-height: 1; } }
@@ -1229,6 +1229,6 @@ body {
       grid-column: 4/9; }
     .windows--contact .window--2 {
       grid-column: 5/10; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1600px) {
     .windows--contact .window {
       grid-column: span 4; } } }
