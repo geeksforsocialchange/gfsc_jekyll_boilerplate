@@ -57,7 +57,7 @@
     +for-tablet-portrait-up
       font-size: 1.555555rem
   &__body
-    p:first-child
+    > p:first-child
       font-weight: 500
   &__content
     +border(0 2px)
@@ -81,6 +81,18 @@
       margin-right: $margin-desktop
       +border(right)
       padding: 0 5rem
+    .footnotes
+      margin: 0 -1rem
+      padding: 1rem
+      +for-tablet-portrait-up
+        margin: 0 -5rem
+        padding: 1rem 5rem
+      +for-tablet-landscape-up
+        margin: 0 -2rem
+        padding: 1rem 2rem 
+      +for-big-desktop-up
+        margin: 0 -5rem
+        padding: 1rem 5rem
   &__aside
     display: grid
     grid-template-columns: 1fr 1fr

@@ -11,3 +11,10 @@
   hamburger.toggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
   hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
 }());
+
+
+// var footnotes = document.getElementsByClass("footnotes")
+//
+// footnotes.forEach(function(footnotenote) {
+//
+// })
