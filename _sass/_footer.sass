@@ -2,6 +2,8 @@
   +border(all)
   display: grid
   font-size: 0.777778rem
+  +for-desktop-up
+    font-size: 1rem
   grid-template-columns: 1fr 3.6rem 3.6rem
   grid-template-rows: auto auto auto
   +for-tablet-portrait-up
@@ -80,12 +82,16 @@
         grid-column: 4
       svg
         width: 30px
+        +for-tablet-landscape-up
+          width: 40px
     &--email
       grid-column: 2
       +for-tablet-portrait-up
         grid-column: 3
       svg
         width: 22.5px
+        +for-tablet-landscape-up
+          width: 30px
   &__impressum
     margin: 0 0.75rem
     grid-row: 3
