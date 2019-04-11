@@ -605,13 +605,13 @@ a.link {
 .nav {
   font-family: balboa, sans-serif;
   font-weight: 300;
-  font-size: 1.55555rem; }
+  font-size: 1.56rem; }
   @media (min-width: 640px) {
     .nav {
-      font-size: 1.11111rem; } }
+      font-size: 1.11rem; } }
   @media (min-width: 1200px) {
     .nav {
-      font-size: 1.333333rem; } }
+      font-size: 1.33rem; } }
   .nav__toggle {
     padding: 0 1rem;
     cursor: pointer;
