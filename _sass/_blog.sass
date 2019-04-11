@@ -1,86 +1,3 @@
-.teaser
-  display: grid
-  +border(bottom)
-  &:last-of-type
-    border-width: 0
-  grid-template-columns: 1fr
-  +for-tablet-portrait-up
-    grid-template-columns: $margin-tablet-portrait 1fr
-    border: 0
-  +for-tablet-landscape-up
-    grid-template-columns: $margin-tablet-landscape 1fr
-  +for-desktop-up
-    grid-template-columns: $margin-desktop 1fr
-  &__title
-    font-family: $freight
-    font-size: 1.666667rem
-    line-height: 1.2
-    margin-bottom: 1rem
-    a
-      text-decoration: none
-      &:hover
-        text-decoration: underline
-    +for-tablet-portrait-up
-      font-size: 2.22222rem
-      line-height: 1.05
-  &__subtitle
-    font-size: 1.44444rem
-    font-style: italic
-    font-weight: 500
-    paddding: 0
-    margin: 0
-
-  &__content
-    border-width: 0 2px
-    border-style: solid
-    padding: 1rem 1rem 0.25rem
-    grid-row: 2
-    +for-tablet-portrait-up
-      padding: 1rem
-      grid-column: 2
-      grid-row: 1
-      order: 2
-      border-width: 0 0 0 2px
-      padding: 2rem 2rem 1rem
-      a.btn
-        font-size: 1.33333rem
-    +for-desktop-up
-      margin-right: $margin-desktop
-      +border(0 2px)
-  &__aside
-    grid-column: 1
-    grid-row: 1
-    display: grid
-    grid-template-columns: 1fr 1fr
-    grid-auto-flow: row
-    +for-tablet-portrait-up
-      grid-template-columns: 1fr
-      grid-template-rows: auto auto 1fr
-      +border(0)
-  &__meta
-    +balboa
-    padding: 0.75rem 1rem
-    text-align: center
-    font-size: 1.11111rem
-    +border(0 2px 2px 2px)
-    &:first-child
-      +border(0 0 2px 2px)
-    +for-tablet-portrait-up
-      padding: 1.25rem 0.75rem
-      text-align: left
-      +border(top)
-      &:first-child
-        +border(0)
-      &:last-child
-        +border(2px 0)
-
-  &__excerpt
-    color: $copy
-    p:first-child
-      margin-top: 1rem
-    +for-tablet-landscape-up
-      font-weight: 500
-
 .blog
   display: grid
   grid-template-columns: 1fr
@@ -90,6 +7,39 @@
     grid-template-columns: $margin-tablet-landscape 1fr
   +for-desktop-up
     grid-template-columns: $margin-desktop 1fr
+  img, iframe
+    max-width: 90%
+    margin: 0 auto
+  header + p
+    font-size: 1.25rem
+  figcaption
+    +border(all)
+    font-size: 1rem
+    display: inline-block
+    margin: 0.5rem 0
+    .icon
+      display: inline-block
+      background-image: url('/assets/images/info.svg')
+      background-repeat: no-repeat
+      background-position: 60%
+      width: 1.5rem
+      height: 1rem
+      vertical-align: -0.2rem
+    .desc
+      display: inline-block
+      padding: 0.3rem 0.75rem
+      +border(left)
+  hr
+    width: 30px
+    height: 28.8px
+    border: 0
+    background-image: url('/assets/images/hr.svg')
+    background-size: cover
+    margin: 2rem auto
+    +for-tablet-portrait-up
+      width: 50px
+      height: 47.99px
+      margin: 3rem auto
   &__title
     font-family: $freight
     text-align: left
@@ -131,28 +81,6 @@
       margin-right: $margin-desktop
       +border(right)
       padding: 0 5rem
-  img, iframe
-    max-width: 90%
-    margin: 0 auto
-  header + p
-    font-size: 1.25rem
-  figcaption
-    +border(all)
-    font-size: 1rem
-    display: inline-block
-    margin: 0.5rem 0
-    .icon
-      display: inline-block
-      background-image: url('/assets/images/info.svg')
-      background-repeat: no-repeat
-      background-position: 60%
-      width: 1.5rem
-      height: 1rem
-      vertical-align: -0.2rem
-    .desc
-      display: inline-block
-      padding: 0.3rem 0.75rem
-      +border(left)
   &__aside
     display: grid
     grid-template-columns: 1fr 1fr

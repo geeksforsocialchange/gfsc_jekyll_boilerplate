@@ -30,3 +30,17 @@ layout: default
     </div>
   </aside>
 </div>
+
+<div class="paginator">
+  <nav aria-label="Blog navigation">
+    <ul>
+      <li><a href="/blog" class="btn">Go back</a></li>
+      {% if page.previous %}
+        <li><a href="{{ page.previous.url }}" class="btn">Previous article</a></li>
+      {% endif %}
+      {% if page.next %}
+        <li><a href="{{ page.next.url }}" class="btn">Next article</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+</div>
