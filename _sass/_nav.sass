@@ -44,18 +44,17 @@
 
   li
     +for-tablet-portrait-up
-      background-size: 200% 100%
-      background-image: linear-gradient(to right, transparent 50%, $primary 50%)
-      -webkit-transition: 0.2s
-      -moz-transition: 0.2s
-      transition: 0.2s
-      &:hover
-        a
-          color: $secondary
-          +border(0)
-        background-position: -100% 0
       +border(left)
       display: grid
       justify-content: center
       align-items: center
       height: 100%
+      a
+        background-size: 200% 100%
+        background-image: linear-gradient(to right, transparent 50%, $primary 50%)
+        -webkit-transition: 0.2s
+        -moz-transition: 0.2s
+        transition: 0.2s
+        &:hover
+          background-position: -100% 0
+          color: $secondary

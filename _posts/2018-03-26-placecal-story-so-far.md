@@ -10,7 +10,9 @@ I’ve spent the last 9 months working with [PHASE@MMU](http://msaphase.org/), [
 
 To start at the end: here’s a little clip from our launch party on 1st Dec 2017, where we organised the Winter Lights Switch-on in Hulme Park. Confused what Christmas lights and children’s choirs could possibly have to do with a smart city project? Find out more in the video…
 
-<iframe src="https://www.youtube.com/embed/sTYs_mc0Qgc" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sTYs_mc0Qgc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ## Where it all began: Manchester Age Friendly Neighbourhoods
 
@@ -24,8 +26,7 @@ This is methodology is called *asset-based community development *or *ABCD*: aid
 
 {% include image.html url="https://cdn-images-1.medium.com/max/2000/1*xq77VmzDQw4mN2mqmxpopg.png" description="A photo of a neighbourhood partnership in action" %}
 
-
-{% include image.html  description="A snapshot of a board meeting in Hulme" url="https://cdn-images-1.medium.com/max/2000/1*Hj6XTsBBP89GMrGghXQdew.png" %}
+{% include image.html description="A snapshot of a board meeting in Hulme" url="https://cdn-images-1.medium.com/max/2000/1*Hj6XTsBBP89GMrGghXQdew.png" %}
 
 This process is designed to combat the widespread “silos” that exist across all sectors. Silos occur when local councils, housing associations, or universities for example act alone over long periods of time. Each institution ends up with its own strengths and weaknesses, and inevitably creates parallel and disconnected knowledges, skills, facilities, and funding streams. If you’ve ever been involved in a community group and wondered “why can’t we just book a room on the local campus?” or “how come the same organisations seem to get all the funding?” or as a researcher wondered “how come it’s so hard to work with local organisations and get citizen involvement?”, then you’ve probably encountered this first-hand. Resident-led partnerships’ direct aim is to de-silo and allow cross-agency work, producing interventions that enable community wellness by solving problems at the root level.
 

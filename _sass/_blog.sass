@@ -7,9 +7,6 @@
     grid-template-columns: $margin-tablet-landscape 1fr
   +for-desktop-up
     grid-template-columns: $margin-desktop 1fr
-  img, iframe
-    max-width: 90%
-    margin: 0 auto
   header + p
     font-size: 1.25rem
   blockquote, blockquote p
@@ -62,6 +59,15 @@
   &__body
     > p:first-child
       font-weight: 500
+    img, iframe
+      max-width: 90%
+      margin: 0 auto
+      &.frame
+        margin: 0 -2rem
+        border-color: $tertiary
+        border-width: 2rem 4rem
+        border-style: solid
+        display: block
   &__content
     +border(0 2px)
     color: $copy
