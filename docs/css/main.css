@@ -68,6 +68,9 @@ p {
     margin: 0 auto; }
   .blog header + p {
     font-size: 1.25rem; }
+  .blog blockquote, .blog blockquote p {
+    color: #ea5b0c;
+    font-weight: 500; }
   .blog figcaption {
     border-style: solid;
     border-color: #ea5b0c;
@@ -419,8 +422,10 @@ a.link {
     .footnotes ol:first-child {
       counter-reset: counter; }
     .footnotes ol p {
-      margin-left: 1.25rem;
-      max-width: 70%; }
+      margin-left: 1.25rem; }
+      @media (min-width: 1200px) {
+        .footnotes ol p {
+          max-width: 70%; } }
 
 .reversefootnote {
   background-image: url("/assets/images/eye.svg");
@@ -693,7 +698,7 @@ body {
       padding: 3rem 8rem; } }
 
 @media (min-width: 640px) {
-  .page--blog-index .page__title, .page--default .page__title {
+  .page--default .page__title {
     border-style: solid;
     border-color: #ea5b0c;
     border-width: 0; } }
@@ -861,8 +866,8 @@ body {
         grid-column: 2;
         grid-row: 1;
         order: 2;
-        border-width: 0 0 0 2px;
-        padding: 2rem 2rem 1rem; }
+        padding: 2rem 2rem 1rem;
+        border: 0; }
         .teaser__content a.btn {
           font-size: 1.33333rem; } }
     @media (min-width: 1200px) {
@@ -870,7 +875,7 @@ body {
         margin-right: 13.33333rem;
         border-style: solid;
         border-color: #ea5b0c;
-        border-width: 0 2px; } }
+        border-width: 0 2px 0 0; } }
   .teaser__aside {
     grid-column: 1;
     grid-row: 1;
@@ -883,7 +888,7 @@ body {
         grid-template-rows: auto auto 1fr;
         border-style: solid;
         border-color: #ea5b0c;
-        border-width: 0; } }
+        border-width: 0 2px 0 0; } }
   .teaser__meta {
     font-family: balboa, sans-serif;
     font-weight: 300;

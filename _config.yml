@@ -6,3 +6,4 @@ kramdown:
 destination: docs
 plugins:
   - jekyll-paginate
+paginate: 2
