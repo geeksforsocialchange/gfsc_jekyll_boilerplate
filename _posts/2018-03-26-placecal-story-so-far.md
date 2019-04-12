@@ -161,23 +161,7 @@ Between us we distributed 10,000 leaflets and posters down the major shopping st
 
 The event itself was a huge success with hundreds of people coming throughout the day. Over the course of the day we had carols from local schools in the park, live music, the One Manchester bus, a fire engine with a snow machine, loads of food from local organisations, mosques and churches, and of course the PlaceCal demonstrations which nearly got lost in the festivities! We also got to line up with Z Arts current production for people who wanted somewhere to go afterwards. The highlight for me was wondering why it had got quiet for a bit, before realising the imitable DJ [Lord Kemoy Walker](https://twitter.com/kemoywalker) had a dancefloor full of kids dancing to *Gangnam Style* just before wrapup!
 
-![](https://cdn-images-1.medium.com/max/9216/1*ZJYaSYWbglYUByv4gv5M6A.jpeg)
-
-![Left: Christmas carols, Hulme style. Right: people gathering in the park with a fire engine and snow machine](https://cdn-images-1.medium.com/max/9216/1*s2PBRzoCxeKz_F1RPcpv_w.jpeg)
-
-![](https://cdn-images-1.medium.com/max/9216/1*_Pmbf52ENwiLx0-j_sg3lA.jpeg)
-
-![Left: our lovely brass section. Right: Cllr Igbon introducing the choirs](https://cdn-images-1.medium.com/max/10368/1*HDBEwWSEi_q23WmD5aiKNw.jpeg)
-
-![](https://cdn-images-1.medium.com/max/2000/1*lFXbY-SfYhXxiEM_VB4Yqg.jpeg)
-
-![](https://cdn-images-1.medium.com/max/9216/1*exgGXebzun8bZkDm5dbNVw.jpeg)
-
-![L-R: Presentation in action, people queueing for food, our audience in rapt attention](https://cdn-images-1.medium.com/max/3886/1*HwdxS1lNnGkjAiIISoHOMw.jpeg)
-
-![](https://cdn-images-1.medium.com/max/9216/1*RhePVdn4vzqD3eLoBYCMIA.jpeg)
-
-![Left: Lord Kemoy raising the roof. Right: one of our younger residents](https://cdn-images-1.medium.com/max/2430/1*eIzGm2VjN_Nno-Tq1Ma1sA.jpeg)
+{% include image.html urls = "https://cdn-images-1.medium.com/max/9216/1*ZJYaSYWbglYUByv4gv5M6A.jpeg https://cdn-images-1.medium.com/max/9216/1*s2PBRzoCxeKz_F1RPcpv_w.jpeg https://cdn-images-1.medium.com/max/9216/1*_Pmbf52ENwiLx0-j_sg3lA.jpeg https://cdn-images-1.medium.com/max/10368/1*HDBEwWSEi_q23WmD5aiKNw.jpeg https://cdn-images-1.medium.com/max/2000/1*lFXbY-SfYhXxiEM_VB4Yqg.jpeg https://cdn-images-1.medium.com/max/9216/1*exgGXebzun8bZkDm5dbNVw.jpeg https://cdn-images-1.medium.com/max/3886/1*HwdxS1lNnGkjAiIISoHOMw.jpeg https://cdn-images-1.medium.com/max/9216/1*RhePVdn4vzqD3eLoBYCMIA.jpeg https://cdn-images-1.medium.com/max/2430/1*eIzGm2VjN_Nno-Tq1Ma1sA.jpeg" description="Photos from our launch" %}
 
 I hope this article has given you an insight into not just the PlaceCal design process, but what we hope is the groundwork for a more connected way of delivering technology in a community context. In future pieces I’ll cover what we have planned for PlaceCal in 2018, and document this methodology that we’re calling Community Technology Partnerships. As it happens, we’re also starting a bus service…
 
