@@ -5,28 +5,17 @@
   background-color: #{$primary}20
   ol
     margin: 0
-    padding: 0
-    list-style-type: none
-    > li
-      counter-increment: counter
-    > li:before
-      content: counter(counter) " "
-      float: left
-      margin-right: 0.75rem
-      height: 100%
-      font-weight: 500
-      color: $primary
-    &:first-child
-      counter-reset: counter
     p
-      margin-left: 1.25rem
       +for-desktop-up
         max-width: 70%
+    li:before
+      font-family: $freight
+
 .footnote
   text-decoration: none
   &:hover
     text-decoration: underline
-    
+
 .reversefootnote
   background-image: url('/assets/images/eye.svg')
   background-repeat: no-repeat
@@ -36,6 +25,10 @@
   margin-left: 0.25rem
   color: transparent
   background-position: bottom center
+  text-decoration: none
+  &:hover
+    text-decoration: none
+    color: transparent
 
 //   Start of JS positioning
 //   position: absolute

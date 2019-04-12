@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-size: 18px; }
 
@@ -50,10 +51,62 @@ h1, h2, h3 {
 a {
   text-decoration-color: #ea5b0c;
   color: #565544; }
+  a:hover {
+    color: #ea5b0c; }
 
 p {
   color: #565544;
   margin: 1.4444rem 0; }
+
+.blog blockquote, .page--default .page__content blockquote {
+  border-style: solid;
+  border-color: #ea5b0c;
+  border-width: 0 0 0 2px;
+  padding-left: 2rem;
+  margin-left: 0;
+  font-style: normal; }
+.blog ol, .page--default .page__content ol {
+  margin: 2rem 0;
+  padding: 0;
+  list-style-type: none;
+  color: #565544;
+  font-weight: 500;
+  line-height: 1.54545; }
+  .blog ol li, .page--default .page__content ol li {
+    margin-bottom: 1rem; }
+  .blog ol > li, .page--default .page__content ol > li {
+    counter-increment: counter; }
+  .blog ol > li:before, .page--default .page__content ol > li:before {
+    content: counter(counter) " ";
+    float: left;
+    margin-right: 1em;
+    height: 100%;
+    font-weight: 500;
+    color: #ea5b0c;
+    font-family: balboa, sans-serif;
+    font-weight: 300; }
+  .blog ol:first-child, .page--default .page__content ol:first-child {
+    counter-reset: counter; }
+  .blog ol p, .page--default .page__content ol p {
+    margin-left: 1.25rem; }
+.blog ul, .page--default .page__content ul {
+  list-style-type: none;
+  margin: 2rem 0;
+  padding: 0;
+  position: relative;
+  font-weight: 500;
+  line-height: 1.54545;
+  color: #565544; }
+  .blog ul li, .page--default .page__content ul li {
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    line-height: 1.54545; }
+  .blog ul li:before, .page--default .page__content ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #ea5b0c;
+    margin-right: 1rem; }
 
 .blog {
   display: grid;
@@ -71,30 +124,47 @@ p {
       grid-template-columns: 13.33333rem 1fr; } }
   .blog header + p {
     font-size: 1.25rem; }
-  .blog blockquote, .blog blockquote p {
-    color: #ea5b0c;
-    font-weight: 500; }
+  .blog figure {
+    margin: 0;
+    padding: 0; }
+    .blog figure img.frame {
+      box-sizing: border-box;
+      border-color: #565544;
+      border-width: 1rem;
+      border-style: solid;
+      display: block; }
+      @media (min-width: 640px) {
+        .blog figure img.frame {
+          border-width: 2rem 4rem; } }
   .blog figcaption {
     border-style: solid;
     border-color: #ea5b0c;
     border-width: 2px;
     font-size: 1rem;
-    display: inline-block;
-    margin: 0.5rem 0; }
+    display: block;
+    position: relative;
+    margin: 1rem 0;
+    min-height: 2rem; }
     .blog figcaption .icon {
-      display: inline-block;
-      background-image: url("/assets/images/info.svg");
-      background-repeat: no-repeat;
-      background-position: 60%;
-      width: 1.5rem;
-      height: 1rem;
-      vertical-align: -0.2rem; }
-    .blog figcaption .desc {
-      display: inline-block;
-      padding: 0.3rem 0.75rem;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 2rem;
+      height: 2rem;
       border-style: solid;
       border-color: #ea5b0c;
-      border-width: 0 0 0 2px; }
+      border-width: 0 2px 2px 0;
+      text-align: center; }
+      .blog figcaption .icon svg {
+        fill: #ea5b0c;
+        height: 19px;
+        padding-top: 0.4rem; }
+    .blog figcaption .desc {
+      display: block;
+      font-size: 1rem;
+      line-height: 1.33333;
+      padding: 0.3rem 0.75rem 0.3rem 3rem; }
   .blog hr {
     width: 30px;
     height: 28.8px;
@@ -129,14 +199,8 @@ p {
   .blog__body > p:first-child {
     font-weight: 500; }
   .blog__body img, .blog__body iframe {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto; }
-    .blog__body img.frame, .blog__body iframe.frame {
-      margin: 0 -2rem;
-      border-color: #565544;
-      border-width: 2rem 4rem;
-      border-style: solid;
-      display: block; }
   .blog__content {
     border-style: solid;
     border-color: #ea5b0c;
@@ -279,14 +343,14 @@ a.btn, .btn a {
     color: #f1f4d1;
     background-position: -100% 0; }
 
-a.link, .teaser__excerpt a, .blog__content a {
+a.link, .teaser__excerpt a {
   display: inline-block;
   background-size: 100% 200%;
   background-image: linear-gradient(to top, #ea5b0c 50%, transparent 50%);
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   transition: 0.2s; }
-  a.link:hover, .teaser__excerpt a:hover, .blog__content a:hover {
+  a.link:hover, .teaser__excerpt a:hover {
     color: #f1f4d1 !important;
     background-position: 0 100%; }
 
@@ -420,6 +484,8 @@ a.link, .teaser__excerpt a, .blog__content a {
     .footer__impressum p {
       color: #ea5b0c;
       margin: 0.5rem 0; }
+    .footer__impressum a {
+      color: #ea5b0c; }
     @media (min-width: 640px) {
       .footer__impressum {
         grid-row: 2;
@@ -434,25 +500,12 @@ a.link, .teaser__excerpt a, .blog__content a {
   border-width: 2px 0 0 0;
   background-color: #ea5b0c20; }
   .footnotes ol {
-    margin: 0;
-    padding: 0;
-    list-style-type: none; }
-    .footnotes ol > li {
-      counter-increment: counter; }
-    .footnotes ol > li:before {
-      content: counter(counter) " ";
-      float: left;
-      margin-right: 0.75rem;
-      height: 100%;
-      font-weight: 500;
-      color: #ea5b0c; }
-    .footnotes ol:first-child {
-      counter-reset: counter; }
-    .footnotes ol p {
-      margin-left: 1.25rem; }
-      @media (min-width: 1200px) {
-        .footnotes ol p {
-          max-width: 70%; } }
+    margin: 0; }
+    @media (min-width: 1200px) {
+      .footnotes ol p {
+        max-width: 70%; } }
+    .footnotes ol li:before {
+      font-family: freight-text-pro, serif; }
 
 .footnote {
   text-decoration: none; }
@@ -467,7 +520,11 @@ a.link, .teaser__excerpt a, .blog__content a {
   display: inline-block;
   margin-left: 0.25rem;
   color: transparent;
-  background-position: bottom center; }
+  background-position: bottom center;
+  text-decoration: none; }
+  .reversefootnote:hover {
+    text-decoration: none;
+    color: transparent; }
 
 .header {
   display: grid;
@@ -748,6 +805,7 @@ body {
         margin-top: 2rem; }
       .page--default .page__content h2 + p {
         font-size: 1.44444rem;
+        line-height: 1.3077;
         font-weight: 500; }
       .page--default .page__content p {
         font-size: 1.222222rem;

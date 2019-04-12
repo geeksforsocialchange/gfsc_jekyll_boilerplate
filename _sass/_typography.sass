@@ -49,7 +49,59 @@ h1, h2, h3
 a
   text-decoration-color: $primary
   color: $copy
-  
+  &:hover
+    color: $primary
+
 p
   color: $copy
   margin: 1.4444rem 0
+
+.blog, .page--default .page__content
+  blockquote
+    +border(left)
+    padding-left: 2rem
+    margin-left: 0
+    font-style: normal
+
+  ol
+    margin: 2rem 0
+    padding: 0
+    list-style-type: none
+    color: $copy
+    font-weight: 500
+    line-height: 1.54545
+    li
+      margin-bottom: 1rem
+    > li
+      counter-increment: counter
+    > li:before
+      content: counter(counter) " "
+      float: left
+      margin-right: 1em
+      height: 100%
+      font-weight: 500
+      color: $primary
+      +balboa
+    &:first-child
+      counter-reset: counter
+    p
+      margin-left: 1.25rem
+
+  ul
+    list-style-type: none
+    margin: 2rem 0
+    padding: 0
+    position: relative
+    font-weight: 500
+    line-height: 1.54545
+    color: $copy
+    li
+      margin-bottom: 1rem
+      margin-left: 2rem
+      line-height: 1.54545
+    li:before
+      content: "\2022"
+      position: absolute
+      left: 0
+      color: $primary
+      margin-right: 1rem
