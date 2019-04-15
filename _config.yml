@@ -6,4 +6,5 @@ kramdown:
 destination: docs
 plugins:
   - jekyll-paginate
+  - jekyll-autoprefixer
 paginate: 2

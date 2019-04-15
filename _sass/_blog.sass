@@ -21,14 +21,14 @@
       align-items: center
       justify-content: center
       +for-tablet-portrait-up
-        margin: 0 -1.66667rem
+        // margin: 0 -1.66667rem
         grid-template-columns: 1fr 1fr
         grid-gap: 1.5rem
         padding: 1.5rem
       +for-tablet-landscape-up
         margin: 0
       +for-big-desktop-up
-        margin: 0 -2re
+        margin: 0 -2.5rem
     img.frame
       box-sizing: border-box
       border-color: $tertiary
@@ -39,6 +39,11 @@
         margin: 0
         border-width: 2rem 4rem
         border-width: 2rem
+  blockquote, blockquote p
+    color: $primary
+    font-size: 1rem
+    font-weight: 500
+    line-height: 1.666667
   figcaption
     +border(all)
     font-size: 1rem
@@ -118,8 +123,11 @@
     +for-tablet-portrait-up
       font-size: 1.555555rem
   &__body
-    > p:first-child
-      font-weight: 500
+    // > p:first-child
+    //   font-weight: 500
+    //   +for-tablet-landscape-up
+    //     font-size: 1.44444rem
+    //     line-height: 1.3077
     img, iframe
       max-width: 100%
       margin: 0 auto

@@ -49,7 +49,8 @@ h1, h2, h3 {
     color: #ea5b0c; }
 
 a {
-  text-decoration-color: #ea5b0c;
+  -webkit-text-decoration-color: #ea5b0c;
+          text-decoration-color: #ea5b0c;
   color: #565544; }
   a:hover {
     color: #ea5b0c; }
@@ -137,7 +138,6 @@ p {
       justify-content: center; }
       @media (min-width: 640px) {
         .blog figure div.frame {
-          margin: 0 -1.66667rem;
           grid-template-columns: 1fr 1fr;
           grid-gap: 1.5rem;
           padding: 1.5rem; } }
@@ -146,7 +146,7 @@ p {
           margin: 0; } }
       @media (min-width: 1600px) {
         .blog figure div.frame {
-          margin: 0 -2re; } }
+          margin: 0 -2.5rem; } }
     .blog figure img.frame {
       box-sizing: border-box;
       border-color: #565544;
@@ -158,6 +158,11 @@ p {
           margin: 0;
           border-width: 2rem 4rem;
           border-width: 2rem; } }
+  .blog blockquote, .blog blockquote p {
+    color: #ea5b0c;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.666667; }
   .blog figcaption {
     border-style: solid;
     border-color: #ea5b0c;
@@ -233,8 +238,6 @@ p {
     @media (min-width: 640px) {
       .blog__subtitle {
         font-size: 1.555555rem; } }
-  .blog__body > p:first-child {
-    font-weight: 500; }
   .blog__body img, .blog__body iframe {
     max-width: 100%;
     margin: 0 auto; }
@@ -373,8 +376,6 @@ a.btn, .btn a {
   font-weight: 300;
   background-size: 200% 100%;
   background-image: linear-gradient(to right, transparent 50%, #ea5b0c 50%);
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
   transition: 0.2s; }
   a.btn:hover, .btn a:hover {
     color: #f1f4d1;
@@ -384,8 +385,6 @@ a.link, .teaser__excerpt a {
   display: inline-block;
   background-size: 100% 200%;
   background-image: linear-gradient(to top, #ea5b0c 50%, transparent 50%);
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
   transition: 0.2s; }
   a.link:hover, .teaser__excerpt a:hover {
     color: #f1f4d1 !important;
@@ -470,8 +469,6 @@ a.link, .teaser__excerpt a {
     line-height: 0;
     background-size: 200% 100%;
     background-image: linear-gradient(to right, transparent 50%, #ea5b0c 50%);
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
     transition: 0.2s; }
     .footer__icon:hover {
       color: #f1f4d1;
@@ -759,7 +756,7 @@ a.link, .teaser__excerpt a {
         color: #ea5b0c; } }
     @media (min-width: 640px) {
       .nav a {
-        padding: 0rem 1.111111rem;
+        padding: 0rem 1.1rem;
         margin: 0;
         background-color: transparent;
         color: #ea5b0c;
@@ -776,9 +773,8 @@ a.link, .teaser__excerpt a {
       height: 100%;
       background-size: 200% 100%;
       background-image: linear-gradient(to right, transparent 50%, #ea5b0c 50%);
-      -webkit-transition: 0.2s;
-      -moz-transition: 0.2s;
-      transition: 0.2s; }
+      transition: 0.2s;
+      background-clip: border-box; }
       .nav li:hover {
         background-position: -100% 0; }
         .nav li:hover a {
@@ -931,12 +927,10 @@ body {
       .strip--circles {
         min-height: 55px; } }
   .strip--lines {
-    background: -webkit-repeating-linear-gradient(120deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 16px);
-    background: repeating-linear-gradient(120deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 16px);
+    background: repeating-linear-gradient(125deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 16px);
     min-height: 40px; }
     @media (min-width: 1200px) {
       .strip--lines {
-        background: -webkit-repeating-linear-gradient(120deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 21px);
         background: repeating-linear-gradient(125deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 21px); } }
 
 .if-mobile {
@@ -1098,7 +1092,8 @@ body {
     @media (min-width: 640px) {
       .venn__subtitle {
         font-size: 1.44444rem;
-        line-height: 1; } }
+        line-height: 1.05;
+        letter-spacing: 0.01em; } }
     @media (min-width: 1200px) {
       .venn__subtitle {
         width: 33%; } }
