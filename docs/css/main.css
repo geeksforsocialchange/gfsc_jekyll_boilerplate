@@ -298,7 +298,7 @@ p {
         border-style: solid;
         border-color: #ea5b0c;
         border-width: 0;
-        padding: 0 5rem; } }
+        padding: 0 1.666667rem; } }
     @media (min-width: 1024px) {
       .blog__aside {
         grid-column: 1;
