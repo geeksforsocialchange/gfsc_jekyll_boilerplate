@@ -694,6 +694,9 @@ a.link, .teaser__excerpt a {
         display: block;
         grid-column: 2/4;
         grid-row: 2; } }
+    @media (min-width: 1200px) {
+      .header__strip--2 {
+        background-image: url("/assets/images/stripes.svg") !important; } }
 
 .fancy {
   box-sizing: border-box;
@@ -927,11 +930,9 @@ body {
       .strip--circles {
         min-height: 55px; } }
   .strip--lines {
-    background: repeating-linear-gradient(125deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 16px);
+    background-image: url("/assets/images/stripes-narrow.svg");
+    background-size: 1500px 500px;
     min-height: 40px; }
-    @media (min-width: 1200px) {
-      .strip--lines {
-        background: repeating-linear-gradient(125deg, transparent 0, transparent 7px, #ea5b0c 8px, #ea5b0c 9px, transparent 10px, transparent 21px); } }
 
 .if-mobile {
   display: none; }
@@ -1254,6 +1255,8 @@ body {
       border-style: solid;
       border-color: #ea5b0c;
       border-width: 2px 0 0 0; }
+    .window p .strip {
+      background-image: url("/assets/images/stripes-narrow.svg"); }
   .window .btn {
     background-color: #f1f4d1;
     margin: 0.2rem;
