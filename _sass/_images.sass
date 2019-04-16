@@ -1,33 +1,6 @@
 figure
   margin: 0
   padding: 0
-  .frame
-    background-color: $tertiary
-    padding: 1rem
-    display: grid
-    grid-template-columns: 1fr
-    grid-gap: 1rem
-    align-items: center
-    justify-content: center
-    +for-tablet-portrait-up
-      // margin: 0 -1.66667rem
-      grid-template-columns: 1fr 1fr
-      grid-gap: 1.5rem
-      padding: 1.5rem
-    +for-tablet-landscape-up
-      margin: 0
-    +for-big-desktop-up
-      margin: 0 -2.5rem
-  img.frame
-    box-sizing: border-box
-    border-color: $tertiary
-    border-width: 1rem
-    border-style: solid
-    display: block
-    +for-tablet-portrait-up
-      margin: 0
-      border-width: 2rem 4rem
-      border-width: 2rem
 
 figcaption
   +border(all)
@@ -57,9 +30,61 @@ figcaption
     line-height: 1.33333
     padding: 0.4rem 0.75rem 0.3rem 3rem
 
+.image--frame, .image--toilet
+  .image__wrapper
+    background-color: $tertiary
+    +for-tablet-landscape-up
+      margin: 0
+    +for-big-desktop-up
+      margin: 0 -2.5rem
+    &--single
+      padding: 1rem
+      display: inline-block
+      line-height: 1
+    &--multiple
+      display: grid
+      grid-template-columns: 1fr
+      grid-gap: 1rem
+      align-items: center
+      justify-content: center
+      padding: 1rem
+      +for-tablet-portrait-up
+        // margin: 0 -1.66667rem
+        grid-template-columns: 1fr 1fr
+        grid-gap: 1.5rem
+        padding: 1.5rem
 
-// Specific overrides
-.image
-  &__toilet
-    .frame
-      grid-template-columns: 2fr 1fr
+// Special cases
+.image--toilet .image__wrapper
+  grid-template-columns: 2fr 1fr
+
+.image--center
+  text-align: center
+
+.image--wide
+  margin: 0 -1.66667rem
+  figcaption
+    margin: 0 1.666667rem
+  +for-tablet-portrait-up
+    margin: 0 -5rem
+    figcaption
+      margin: 0 5rem
+  +for-tablet-landscape-up
+    margin: 0 -2.5rem
+    figcaption
+      margin: 0 2.5rem
+  +for-big-desktop-up
+    margin: 0 -5rem
+    figcaption
+      margin: 0 5rem
+
+.image--float
+  float: left
+  width: 40%
+  margin-left: -1.66667rem
+  +for-tablet-portrait-up
+    margin-left: -5rem
+  +for-tablet-landscape-up
+    margin-left: -2.5rem
+  +for-big-desktop-up
+    margin-left: -5rem

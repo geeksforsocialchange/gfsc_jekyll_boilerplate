@@ -53,9 +53,11 @@ p { color: #565544; margin: 1.4444rem 0; }
 @media (min-width: 1200px) { .blog__title { font-size: 2.5rem; } }
 .blog__subtitle { font-size: 1.44444rem; font-style: italic; font-weight: 500; }
 @media (min-width: 640px) { .blog__subtitle { font-size: 1.555555rem; } }
+.blog p.subtitle { font-size: 1.111111rem; }
+@media (min-width: 1024px) { .blog p.subtitle { font-size: 1.44444rem; line-height: 1.307; } }
 .blog__body img, .blog__body iframe { max-width: 100%; margin: 0 auto; }
 .blog__content { border-style: solid; border-color: #ea5b0c; border-width: 0 2px; color: #565544; padding: 0 1.66667rem; max-width: 100%; overflow: hidden; grid-row: 2; grid-column: 1; }
-@media (min-width: 640px) { .blog__content { grid-row: 2; grid-column: 1; border-style: solid; border-color: #ea5b0c; border-width: 0; padding: 0 5 rem; } }
+@media (min-width: 640px) { .blog__content { grid-row: 2; grid-column: 1; border-style: solid; border-color: #ea5b0c; border-width: 0; padding: 0 5rem; } }
 @media (min-width: 1024px) { .blog__content { grid-row: 1; grid-column: 2; order: 2; padding: 0 2.5rem; } }
 @media (min-width: 1600px) { .blog__content { margin-right: 13.33333rem; border-style: solid; border-color: #ea5b0c; border-width: 0 2px 0 0; padding: 0 5rem; } }
 .blog__content .footnotes { margin: 0 -1.666667rem; padding: 1rem; }
@@ -158,12 +160,6 @@ a.link:hover, .teaser__excerpt a:hover { color: #f1f4d1 !important; background-p
 @media (min-width: 640px) { .fancy { border-style: solid; border-color: #ea5b0c; border-width: 2px 0; } }
 
 figure { margin: 0; padding: 0; }
-figure .frame { background-color: #565544; padding: 1rem; display: grid; grid-template-columns: 1fr; grid-gap: 1rem; align-items: center; justify-content: center; }
-@media (min-width: 640px) { figure .frame { grid-template-columns: 1fr 1fr; grid-gap: 1.5rem; padding: 1.5rem; } }
-@media (min-width: 1024px) { figure .frame { margin: 0; } }
-@media (min-width: 1600px) { figure .frame { margin: 0 -2.5rem; } }
-figure img.frame { box-sizing: border-box; border-color: #565544; border-width: 1rem; border-style: solid; display: block; }
-@media (min-width: 640px) { figure img.frame { margin: 0; border-width: 2rem 4rem; border-width: 2rem; } }
 
 figcaption { border-style: solid; border-color: #ea5b0c; border-width: 2px; font-size: 1rem; display: inline-block; position: relative; margin: 1rem 0; min-height: 2rem; }
 figcaption sup { line-height: 0; }
@@ -171,7 +167,30 @@ figcaption .icon { display: block; position: absolute; top: 0; left: 0; width: 2
 figcaption .icon svg { fill: #ea5b0c; height: 19px; padding-top: 0.4rem; }
 figcaption .desc { display: block; font-size: 1rem; line-height: 1.33333; padding: 0.4rem 0.75rem 0.3rem 3rem; }
 
-.image__toilet .frame { grid-template-columns: 2fr 1fr; }
+.image--frame .image__wrapper, .image--toilet .image__wrapper { background-color: #565544; }
+@media (min-width: 1024px) { .image--frame .image__wrapper, .image--toilet .image__wrapper { margin: 0; } }
+@media (min-width: 1600px) { .image--frame .image__wrapper, .image--toilet .image__wrapper { margin: 0 -2.5rem; } }
+.image--frame .image__wrapper--single, .image--toilet .image__wrapper--single { padding: 1rem; display: inline-block; line-height: 1; }
+.image--frame .image__wrapper--multiple, .image--toilet .image__wrapper--multiple { display: grid; grid-template-columns: 1fr; grid-gap: 1rem; align-items: center; justify-content: center; padding: 1rem; }
+@media (min-width: 640px) { .image--frame .image__wrapper--multiple, .image--toilet .image__wrapper--multiple { grid-template-columns: 1fr 1fr; grid-gap: 1.5rem; padding: 1.5rem; } }
+
+.image--toilet .image__wrapper { grid-template-columns: 2fr 1fr; }
+
+.image--center { text-align: center; }
+
+.image--wide { margin: 0 -1.66667rem; }
+.image--wide figcaption { margin: 0 1.666667rem; }
+@media (min-width: 640px) { .image--wide { margin: 0 -5rem; }
+  .image--wide figcaption { margin: 0 5rem; } }
+@media (min-width: 1024px) { .image--wide { margin: 0 -2.5rem; }
+  .image--wide figcaption { margin: 0 2.5rem; } }
+@media (min-width: 1600px) { .image--wide { margin: 0 -5rem; }
+  .image--wide figcaption { margin: 0 5rem; } }
+
+.image--float { float: left; width: 40%; margin-left: -1.66667rem; }
+@media (min-width: 640px) { .image--float { margin-left: -5rem; } }
+@media (min-width: 1024px) { .image--float { margin-left: -2.5rem; } }
+@media (min-width: 1600px) { .image--float { margin-left: -5rem; } }
 
 .nav { font-family: balboa, sans-serif; font-weight: 300; font-size: 1.55556rem; }
 @media (min-width: 640px) { .nav { font-size: 1.11111rem; } }
@@ -271,6 +290,13 @@ body { margin: 0 1rem; background-image: url("/assets/images/background.png"); b
 @media (min-width: 1200px) { .venn__subtitle { width: 33%; } }
 .venn__subtitle--mobile { display: block; font-size: 1.11111rem; margin: 1rem 0; }
 @media (min-width: 640px) { .venn__subtitle--mobile { display: none; } }
+.venn path, .venn polyline, .venn foreignObject { transition-duration: 200ms; }
+.venn foreignObject { width: 230px; height: 200px; font-family: freight-text-pro, serif; font-size: 1rem; }
+.venn foreignObject p { color: #565544; line-height: 1.4; text-align: left; margin: 0; }
+.venn path { fill: transparent; cursor: pointer; }
+.venn polyline { stroke: #ea5b0c; fill: none; stroke-width: 3; }
+.venn text { text-anchor: middle; alignment-baseline: middle; font-family: balboa, sans-serif; font-weight: 300; fill: #ea5b0c; cursor: pointer; }
+.venn text .desc { font-family: sans-serif; text-transform: none; }
 
 #venn-mobile { display: block; margin: 0 auto; width: 95%; max-width: 320px; }
 @media (min-width: 640px) { #venn-mobile { display: none; } }
@@ -279,15 +305,8 @@ body { margin: 0 1rem; background-image: url("/assets/images/background.png"); b
 
 #venn { max-width: 1300px; display: none; margin: 0 auto; text-align: center; }
 @media (min-width: 640px) { #venn { display: block; } }
-#venn path, #venn polyline, #venn foreignObject { transition-duration: 200ms; }
 #venn polyline, #venn foreignObject { display: none; }
-#venn foreignObject { width: 230px; height: 200px; font-family: freight-text-pro, serif; font-size: 1rem; }
-#venn foreignObject p { color: #565544; line-height: 1.4; text-align: left; margin: 0; }
-#venn path { fill: transparent; cursor: pointer; }
-#venn polyline { stroke: #ea5b0c; fill: none; stroke-width: 3; }
 #venn .selected .hide, #venn .hovered .hide, #venn .hovered--2 .hide { display: block; }
-#venn text { text-anchor: middle; alignment-baseline: middle; font-family: balboa, sans-serif; font-weight: 300; fill: #ea5b0c; cursor: pointer; }
-#venn text .desc { font-family: sans-serif; text-transform: none; }
 #venn .one text { font-size: 2rem; text-transform: uppercase; }
 #venn .three text { font-size: 1.6rem; }
 #venn .selected text { fill: #f1f4d1; }

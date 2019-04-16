@@ -9,7 +9,7 @@ Californian design principles have taken over the internet, turning people into 
 
 The shift in internet and technology culture over the last decade has been phenomenal. Most of the services we use today haven’t been around long at all — Facebook is thirteen years old, Twitter ten, and Instagram six. The first iPhone — and arguably with it the modern concept of an “app” — was released in 2007. And yet despite all this technology that’s supposed to bring us together, [social isolation is a major player in the current epidemic of depression, loneliness, eating disorders, suicide](https://www.theguardian.com/commentisfree/2016/oct/12/neoliberalism-creating-loneliness-wrenching-society-apart), and other social problems. How has this happened?
 
-![](/assets/images/blog/tech-culture/intro.png)
+{% include image.html url="/assets/images/blog/tech-culture/1.png" class="wide" %}
 
 With these new technologies has come a rapid shift in the culture and industry which builds, markets, and owns them. Broadly, this has seen Californian men working alone in their bedrooms suddenly get pushed to global fame, propelled by a seemingly endless supply of speculative venture capital funds, themselves also overwhelmingly run by enormously wealthy men. While we currently find ourselves in many other spheres challenging overly white, rich and male political structures, it feels like there has not been similar mainstream political critique of the ownership of our new, virtual, civic spaces.
 
@@ -25,9 +25,10 @@ What follows is a list of overall values for a CTP manifesto. It was pointed out
 
 ## Complete > Perfect
 
-*Embrace messy data.*
+Embrace messy data.
+{: .subtitle}
 
-![](https://cdn-images-1.medium.com/max/2000/1*Q22PtVwcbl10UdbMv5_UWA.png)
+{% include image.html url="/assets/images/blog/tech-culture/2.png" class="float" %}
 
 [Programming is forgetting](http://opentranscripts.org/transcript/programming-forgetting-new-hacker-ethic/). *All* computer systems — from Facebook to Word — throw anything away they don’t understand. You can’t create a Facebook event and set the date later. You can’t do a painting in Word. More subtly, what a piece of information looks like is based on a designer’s desires: the concept of “a conversation” is different and incompatible between email, Facebook and Google Groups, for example. It simply doesn’t make sense to try and synchronise all those things; they are fundamentally incompatible.
 
@@ -47,9 +48,10 @@ Let’s build systems that have the lowest possible bar to entry, find out what 
 
 ## Communication > Code
 
-*We should be flexible and holistic in what we do with information.*
+We should be flexible and holistic in what we do with information.
+{: .subtitle}
 
-![](https://cdn-images-1.medium.com/max/2000/1*jTdXx0U0gFGbFLdsDsfT8w.png)
+{% include image.html url="/assets/images/blog/tech-culture/3.png" class="float" %}
 
 If what matters is people getting access to accurate, useful, timely information, then we can say that communication is the goal, not code. In the tech sector we talk a lot about what platform or framework is being used, and very little about what is being communicated. I’ve been to countless tech presentations where the talk has been entirely on the structure of the app, and not a word about the people who are using it and how it’s changed things socially. By focusing on communications as a holistic problem, we can see the internet as one tool of many to facilitate information sharing.
 
@@ -65,9 +67,10 @@ Let’s focus on making sure people get the information they need in a way that 
 
 ## Distributed > Centralised
 
-*Facilitate people using the technology that they want, rather than imposing new systems.*
+Facilitate people using the technology that they want, rather than imposing new systems.
+{: .subtitle}
 
-![](https://cdn-images-1.medium.com/max/2000/1*sKqMcoNpZ4BsRGWcNdOIPw.png)
+{% include image.html url="/assets/images/blog/tech-culture/4.png" class="float" %}
 
 Just as the corporate internet is designed to be perfect, it’s also centralised. Many interventions attempt to introduce a new platform, and worry about how to make people use it later. A CTP sees this as completely the wrong way around. We should be enabling people to use existing technology, mapping out what is in use, and providing training to enable people to make incremental improvements. The internet works because it is *distributed* not *centralised* — the current top-down order of sites like Facebook almost entirely being a product of massive capitalist investment. We need to start owning our own information again.
 
@@ -77,9 +80,10 @@ By owning our own information and publishing it in a structured way, we can open
 
 ## People > Computers
 
-*Focus on improving people’s skills, not on any given technology.*
+Focus on improving people’s skills, not on any given technology.
+{: .subtitle}
 
-![](https://cdn-images-1.medium.com/max/2000/1*Qd5BuZNLHoTnL8AqqrJqTQ.png)
+{% include image.html url="/assets/images/blog/tech-culture/5.png" class="float" %}
 
 Fundamentally, computers are not that interesting (at least to me). The internet can be thought of as a giant mechanism for handing around Post-It notes — the interest is in what is on them and who they are being passed between, not the notes themselves. Technology professionals have so neglected human needs that now an entire sub-industry has had to be created with job titles like “human centred design”, “user interface design”, and “usability designer”. In my experience, talks at technical events almost never feature feedback from people who use the platform, focussing instead on technical minutiae and [evidence-less theorising](http://gfsc.network/2016/10/10/no-false-users.html). The industry’s current focus is on getting [toasters and toothbrushes online](https://twitter.com/internetofshit) — apparently more interesting goals than getting poor people, old people, or people with learning difficulties online.
 
@@ -91,9 +95,10 @@ We should build internet services to enable and facilitate real-life interaction
 
 ## Locality-based > Interest-based
 
-*Focus on communities of location, not communities of interest.*
+Focus on communities of location, not communities of interest.
+{: .subtitle}
 
-![](https://cdn-images-1.medium.com/max/2000/1*VZRt9DZB1oTdEQFoTxLCbQ.png)
+{% include image.html url="/assets/images/blog/tech-culture/6.png" class="float" %}
 
 Your postcode at birth is still the single biggest guide to your life’s chances: from employment opportunities to life expectancy. However, the communities we tend to make online — be they for work are leisure — are even *more* selective than those based on our location. In order to redress some balance, we must urgently turn our attention to our own neighbourhoods.
 
@@ -107,9 +112,10 @@ As people with a background in technology, let’s re-engage with our communitie
 
 ## Reduce, Reuse, Recycle
 
-*Use fewer, better technologies.*
+Use fewer, better technologies.
+{: .subtitle}
 
-![](https://cdn-images-1.medium.com/max/2000/1*p5EtySlaWUPnFveaqBRIUg.png)
+{% include image.html url="/assets/images/blog/tech-culture/7.png" class="float" %}
 
 Most organisations and individuals have tiny budgets (or no budgets) for technical products and services. Money spent on these things is explicitly not going on services for their users. And yet the tech industry is constantly trying to sell people expensive products and services, and work with five- or six-figure website budgets. Of course, a good web-presence and good quality design are positive things to have that organisations should aspire to. But in general we should be enabling organisations to do more with the limited resources they have.
 

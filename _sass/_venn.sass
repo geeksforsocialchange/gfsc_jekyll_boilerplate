@@ -1,6 +1,5 @@
 .venn
   text-align: center
-
   &__title
     text-transform: uppercase
     font-size: 1.11111rem
@@ -11,7 +10,6 @@
     +for-desktop-up
       margin: 4rem 0 3rem
       font-size: 2rem
-
   &__subtitle
     display: none
     margin: 0 auto
@@ -40,32 +38,8 @@
       +for-tablet-portrait-up
         display: none
 
-#venn-mobile
-  +for-tablet-portrait-up
-    display: none
-  display: block
-  margin: 0 auto
-  width: 95%
-  max-width: 320px
-  .h2
-    +balboa
-    fill: $primary
-  ellipse
-    stroke: $primary
-
-#venn
-  max-width: 1300px
-  display: none
-  margin: 0 auto
-  text-align: center
-  +for-tablet-portrait-up
-    display: block
-
   path, polyline, foreignObject
     transition-duration: 200ms
-
-  polyline, foreignObject
-    display: none
 
   foreignObject
     width: 230px
@@ -87,11 +61,6 @@
     fill: none
     stroke-width: 3
 
-  .selected .hide,
-  .hovered .hide,
-  .hovered--2 .hide
-    display: block
-
   text
     text-anchor: middle
     alignment-baseline: middle
@@ -102,6 +71,35 @@
     .desc
       font-family: sans-serif
       text-transform: none
+
+#venn-mobile
+  +for-tablet-portrait-up
+    display: none
+  display: block
+  margin: 0 auto
+  width: 95%
+  max-width: 320px
+  .h2
+    +balboa
+    fill: $primary
+  ellipse
+    stroke: $primary
+
+#venn
+  max-width: 1300px
+  display: none
+  margin: 0 auto
+  text-align: center
+  +for-tablet-portrait-up
+    display: block
+
+  polyline, foreignObject
+    display: none
+
+  .selected .hide,
+  .hovered .hide,
+  .hovered--2 .hide
+    display: block
 
   .one text
     font-size: 2rem

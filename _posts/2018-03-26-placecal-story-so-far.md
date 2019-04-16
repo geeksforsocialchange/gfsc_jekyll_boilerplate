@@ -40,7 +40,7 @@ This story is a great example of how the things that prevent community wellness 
 
 This brings us back to the role of the architect in partnership work. Architects are commonly seen as people who simply design buildings. In this case, building a disabled toilet is something a second year undergraduate student or a decent plumber could do: and of course, someone does have to design the thing. The much harder work lies in identifying the problem using the available data: starting from analysing maps of bus routes and public health data, through talking to residents to find the reason for the problems, to creating the conditions to make the change itself.
 
-{% include image.html urls="https://cdn-images-1.medium.com/max/2000/1*cfypWd_q2IgjnmfBQeN2_g.png https://cdn-images-1.medium.com/max/2000/1*ojtkLnuq3dNM3E4YNGjHsg.jpeg" description="The final result: not too complex!" class="image__toilet" %}
+{% include image.html urls="https://cdn-images-1.medium.com/max/2000/1*cfypWd_q2IgjnmfBQeN2_g.png https://cdn-images-1.medium.com/max/2000/1*ojtkLnuq3dNM3E4YNGjHsg.jpeg" description="The final result: not too complex!" class="toilet" %}
 
 At the time of writing, the NHS are still waiting to start doing surgeries there, such is the planning time on these things. However, Manchester City Council are already using the church hall for a new programme of health and fitness activities. Two people with physical disabilities who used to go to the food bank are now staying for the lunch club which is hosted afterwards — previously they got their food and left. And of course, the partnership now has access to a versatile and accessible venue that meets everyone’s needs in the area.
 
@@ -166,4 +166,4 @@ If you want to keep up to date then you can follow us here, on [Twitter](https:/
 
 _Last updated 16th April 2019._
 
-{% include image.html description="Oh yeah — and we had a photobooth!" url="https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" %}
+{% include image.html description="Oh yeah — and we had a photobooth!" url="https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" class="center" %}
