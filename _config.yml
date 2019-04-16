@@ -3,8 +3,7 @@ paginate: 5
 paginate_path: "/blog/page:num/"
 kramdown:
   parse_block_html: true
-destination: docs
 plugins:
   - jekyll-paginate
   - jekyll-autoprefixer
-paginate: 2
+paginate: 5
