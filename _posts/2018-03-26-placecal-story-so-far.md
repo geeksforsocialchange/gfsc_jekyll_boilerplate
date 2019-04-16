@@ -10,9 +10,7 @@ I’ve spent the last 9 months working with [PHASE@MMU](http://msaphase.org/), S
 
 To start at the end: here’s a little clip from our launch party on 1st Dec 2017, where we organised the Winter Lights Switch-on in Hulme Park. Confused what Christmas lights and children’s choirs could possibly have to do with a smart city project? Find out more in the video…
 
-<div class="video">
-  <iframe src="https://www.youtube.com/embed/sTYs_mc0Qgc?wmode=opaque&modestbranding=1&rel=0&hl=ru&showinfo=0&color=white" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% include youtube.html video="sTYs_mc0Qgc" %}
 
 ---
 
