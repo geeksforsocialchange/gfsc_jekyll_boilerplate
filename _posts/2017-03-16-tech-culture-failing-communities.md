@@ -9,7 +9,7 @@ Californian design principles have taken over the internet, turning people into 
 
 The shift in internet and technology culture over the last decade has been phenomenal. Most of the services we use today haven’t been around long at all — Facebook is thirteen years old, Twitter ten, and Instagram six. The first iPhone — and arguably with it the modern concept of an “app” — was released in 2007. And yet despite all this technology that’s supposed to bring us together, [social isolation is a major player in the current epidemic of depression, loneliness, eating disorders, suicide](https://www.theguardian.com/commentisfree/2016/oct/12/neoliberalism-creating-loneliness-wrenching-society-apart), and other social problems. How has this happened?
 
-![](https://cdn-images-1.medium.com/max/2048/1*pKQ_K7MiEphkueHHL54onA.png)
+![](/assets/images/blog/tech-culture/intro.png)
 
 With these new technologies has come a rapid shift in the culture and industry which builds, markets, and owns them. Broadly, this has seen Californian men working alone in their bedrooms suddenly get pushed to global fame, propelled by a seemingly endless supply of speculative venture capital funds, themselves also overwhelmingly run by enormously wealthy men. While we currently find ourselves in many other spheres challenging overly white, rich and male political structures, it feels like there has not been similar mainstream political critique of the ownership of our new, virtual, civic spaces.
 
