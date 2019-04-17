@@ -292,9 +292,15 @@ body { margin: 0 1rem; background-image: url("/assets/images/background.png"); b
 @media (min-width: 1200px) { .venn__subtitle { width: 33%; } }
 .venn__subtitle--mobile { display: block; font-size: 1.11111rem; margin: 1rem 0; }
 @media (min-width: 640px) { .venn__subtitle--mobile { display: none; } }
+.venn__diagram path { fill: transparent; cursor: pointer; }
+.venn__diagram polyline { stroke: #ea5b0c; fill: none; stroke-width: 3; }
+.venn__diagram text { font-family: balboa, sans-serif; font-weight: 300; fill: #ea5b0c; }
+.venn__diagram ellipse { fill: transparent; stroke: #ea5b0c; stroke-miterlimit: 10; stroke-width: 2; }
 
 #venn-mobile { display: block; margin: 0 auto; width: 95%; text-align: center; max-width: 320px; }
 @media (min-width: 640px) { #venn-mobile { display: none; } }
+#venn-mobile text.title { font-family: balboa, sans-serif; font-weight: 300; font-size: 1.55556rem; }
+#venn-mobile text.desc { font-family: freight-text-pro, serif; fill: #565544; }
 
 #venn { max-width: 1300px; display: none; margin: 0 auto; text-align: center; }
 @media (min-width: 640px) { #venn { display: block; } }
@@ -302,9 +308,7 @@ body { margin: 0 1rem; background-image: url("/assets/images/background.png"); b
 #venn path, #venn polyline, #venn foreignObject { transition-duration: 200ms; }
 #venn foreignObject { width: 230px; height: 200px; font-family: freight-text-pro, serif; font-size: 1rem; }
 #venn foreignObject p { color: #565544; line-height: 1.4; text-align: left; margin: 0; }
-#venn path { fill: transparent; cursor: pointer; }
-#venn polyline { stroke: #ea5b0c; fill: none; stroke-width: 3; }
-#venn text { text-anchor: middle; alignment-baseline: middle; font-family: balboa, sans-serif; font-weight: 300; fill: #ea5b0c; cursor: pointer; }
+#venn text { text-anchor: middle; alignment-baseline: middle; cursor: pointer; }
 #venn text .desc { font-family: sans-serif; text-transform: none; }
 #venn .selected .hide, #venn .hovered .hide, #venn .hovered--2 .hide { display: block; }
 #venn .one text { font-size: 2rem; text-transform: uppercase; }
