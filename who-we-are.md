@@ -3,7 +3,7 @@ layout: default
 title: We are software developers, activists and researchers with a social agenda.
 ---
 
-## Geeks for Social Change is a research and development studio based in Manchester, UK. It was founded by Dr Kim Foale in 2017.
+## Geeks for Social Change is a research and development studio based in Manchester, UK. It was founded by Dr Kim Foale in 2016.
 
 We work in collaboration with people, organisations and communities to deliver tools, training and support for lasting and holistic change. Our community-based approach to technology and research helps organisations and social enterprises achieve their social aims.
 
