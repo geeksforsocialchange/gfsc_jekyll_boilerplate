@@ -5,4 +5,3 @@ kramdown:
 plugins:
   - jekyll-paginate
   - jekyll-autoprefixer
-paginate: 5

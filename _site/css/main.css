@@ -187,8 +187,7 @@ figcaption .desc { display: block; font-size: 1rem; line-height: 1.33333; paddin
 @media (min-width: 1600px) { .image--wide { margin: 0 -5rem; }
   .image--wide figcaption { margin: 0 5rem; } }
 
-.image--float { float: left; width: 40%; margin-left: -1.66667rem; }
-@media (min-width: 640px) { .image--float { margin-left: -5rem; } }
+@media (min-width: 640px) { .image--float { float: left; width: 40%; margin-right: 1rem; margin-left: -5rem; } }
 @media (min-width: 1024px) { .image--float { margin-left: -2.5rem; } }
 @media (min-width: 1600px) { .image--float { margin-left: -5rem; } }
 
@@ -199,12 +198,15 @@ figcaption .desc { display: block; font-size: 1rem; line-height: 1.33333; paddin
 .nav__toggle line { stroke: #ea5b0c; stroke-width: 3px; }
 .nav ul { list-style-type: none; margin: 0; padding: 0; display: block; text-align: center; box-sizing: border-box; }
 @media (min-width: 640px) { .nav ul { display: flex; align-items: center; justify-content: center; height: 100%; } }
-.nav a { text-decoration: none; display: block; padding: 1.56rem 1rem; background-color: #ea5b0c; color: #f1f4d1; }
+.nav a { text-decoration: none; display: block; padding: 1.56rem 1.1rem; background-color: #ea5b0c; color: #f1f4d1; }
 @media (max-width: 639px) { .nav a:hover { background-color: #f1f4d1; color: #ea5b0c; } }
-@media (min-width: 640px) { .nav a { padding: 0rem 1.1rem; margin: 0; background-color: transparent; color: #ea5b0c; line-height: 2; } }
+@media (min-width: 640px) and (max-width: 662px) { .nav a { padding: 0 0.75rem !important; } }
+@media (min-width: 640px) { .nav a { padding: 0rem 1rem; margin: 0; background-color: transparent; color: #ea5b0c; line-height: 2; } }
 @media (min-width: 640px) { .nav li { border-style: solid; border-color: #ea5b0c; border-width: 0 0 0 2px; box-sizing: border-box; display: grid; justify-content: center; align-items: center; height: 100%; background-size: 200% 100%; background-image: linear-gradient(to right, transparent 50%, #ea5b0c 50%); transition: 0.2s; background-clip: border-box; }
   .nav li:hover { background-position: -100% 0; }
-  .nav li:hover a { color: #f1f4d1; } }
+  .nav li:hover a { color: #f1f4d1; }
+  .nav li.active { background-color: #ea5b0c; }
+  .nav li.active a { color: #f1f4d1; } }
 
 body { margin: 0 1rem; background-image: url("/assets/images/background.png"); background-size: 35px 35px; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; }
 @media (min-width: 640px) { body { margin: 1.5rem 1.5rem; } }
@@ -290,22 +292,20 @@ body { margin: 0 1rem; background-image: url("/assets/images/background.png"); b
 @media (min-width: 1200px) { .venn__subtitle { width: 33%; } }
 .venn__subtitle--mobile { display: block; font-size: 1.11111rem; margin: 1rem 0; }
 @media (min-width: 640px) { .venn__subtitle--mobile { display: none; } }
-.venn path, .venn polyline, .venn foreignObject { transition-duration: 200ms; }
-.venn foreignObject { width: 230px; height: 200px; font-family: freight-text-pro, serif; font-size: 1rem; }
-.venn foreignObject p { color: #565544; line-height: 1.4; text-align: left; margin: 0; }
-.venn path { fill: transparent; cursor: pointer; }
-.venn polyline { stroke: #ea5b0c; fill: none; stroke-width: 3; }
-.venn text { text-anchor: middle; alignment-baseline: middle; font-family: balboa, sans-serif; font-weight: 300; fill: #ea5b0c; cursor: pointer; }
-.venn text .desc { font-family: sans-serif; text-transform: none; }
 
 #venn-mobile { display: block; margin: 0 auto; width: 95%; text-align: center; max-width: 320px; }
 @media (min-width: 640px) { #venn-mobile { display: none; } }
-#venn-mobile .h2 { font-family: balboa, sans-serif; font-weight: 300; fill: #ea5b0c; }
-#venn-mobile ellipse { stroke: #ea5b0c; }
 
 #venn { max-width: 1300px; display: none; margin: 0 auto; text-align: center; }
 @media (min-width: 640px) { #venn { display: block; } }
 #venn polyline, #venn foreignObject { display: none; }
+#venn path, #venn polyline, #venn foreignObject { transition-duration: 200ms; }
+#venn foreignObject { width: 230px; height: 200px; font-family: freight-text-pro, serif; font-size: 1rem; }
+#venn foreignObject p { color: #565544; line-height: 1.4; text-align: left; margin: 0; }
+#venn path { fill: transparent; cursor: pointer; }
+#venn polyline { stroke: #ea5b0c; fill: none; stroke-width: 3; }
+#venn text { text-anchor: middle; alignment-baseline: middle; font-family: balboa, sans-serif; font-weight: 300; fill: #ea5b0c; cursor: pointer; }
+#venn text .desc { font-family: sans-serif; text-transform: none; }
 #venn .selected .hide, #venn .hovered .hide, #venn .hovered--2 .hide { display: block; }
 #venn .one text { font-size: 2rem; text-transform: uppercase; }
 #venn .three text { font-size: 1.6rem; }

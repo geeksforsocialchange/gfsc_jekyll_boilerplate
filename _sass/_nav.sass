@@ -28,7 +28,7 @@
   a
     text-decoration: none
     display: block
-    padding: 1.56rem 1rem
+    padding: 1.56rem 1.1rem
     // +for-phone-only
     background-color: $primary
     color: $secondary
@@ -36,8 +36,11 @@
       &:hover
         background-color: $secondary
         color: $primary
+    // Tiny fix for a little breakpoint
+    @media (min-width: 640px) and (max-width: 662px)
+      padding: 0 0.75rem !important
     +for-tablet-portrait-up
-      padding: 0rem 1.1rem
+      padding: 0rem 1rem
       margin: 0
       background-color: transparent
       color: $primary
@@ -59,5 +62,9 @@
       background-clip: border-box
       &:hover
         background-position: -100% 0
+        a
+          color: $secondary
+      &.active
+        background-color: $primary
         a
           color: $secondary
