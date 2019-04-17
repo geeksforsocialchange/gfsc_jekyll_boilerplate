@@ -162,6 +162,7 @@ I hope this article has given you an insight into not just the PlaceCal design p
 
 If you want to keep up to date then you can follow us here, on [Twitter](https://twitter.com/placecal) or [Facebook](https://www.facebook.com/placecal). If you’re an organisation looking to get involved in the platform, or a neighbourhood partnership, health provider or local authority who would like to have a chat with us about rolling our PlaceCal in your area, don’t hesitate to contact us by email: [support@placecal.org](mailto:support@placecal.org). The PlaceCal design and illustration is by the awesome [Squid](http://studiosquid.co.uk/).
 
-_Last updated 16th April 2019._
+Last updated 16th April 2019
+{: .updated}
 
 {% include image.html description="Oh yeah — and we had a photobooth!" url="https://cdn-images-1.medium.com/max/2000/1*u2qa6T-ngT2BT0nmEI9Wmw.png" class="center" %}

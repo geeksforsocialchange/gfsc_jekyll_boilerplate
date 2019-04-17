@@ -14,6 +14,8 @@
     font-size: 1rem
     font-weight: 500
     line-height: 1.666667
+    a
+      color: $primary
   .video
     display: block
     position: relative
@@ -79,6 +81,10 @@
     img, iframe
       max-width: 100%
       margin: 0 auto
+    .updated
+      color: $primary
+      font-size: 1rem
+      margin: 2rem 0
   &__content
     +border(0 2px)
     color: $copy
@@ -101,7 +107,7 @@
     +for-big-desktop-up
       margin-right: $margin-desktop
       +border(right)
-      padding: 0 5rem
+      padding: 0 7rem
     .footnotes
       margin: 0 -1.666667rem
       padding: 1rem
@@ -112,8 +118,8 @@
         margin: 0 -2.5rem
         padding: 1rem 2rem
       +for-big-desktop-up
-        margin: 0 -5rem
-        padding: 1rem 5rem
+        margin: 0 -7rem
+        padding: 1rem 7rem
   &__aside
     display: grid
     grid-template-columns: 1fr 1fr
