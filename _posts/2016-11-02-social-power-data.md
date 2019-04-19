@@ -4,7 +4,7 @@ template: blog-2
 title: Data is meaningless without social power.
 subtitle: We have the data, but who is listening?
 author: kim
-excerpt: I went to a film screening and discussion last week about Mark Duggan's shooting by the police, and the conditions surrounding him and his family. The event was one of the best I've been to. The documentary itself was authentic, engaging, and honest, showing a slice of life in London in a similar fashion to an episode of _The Wire_.
+description: I went to a film screening and discussion last week about Mark Duggan's shooting by the police, and the conditions surrounding him and his family. The event was one of the best I've been to. The documentary itself was authentic, engaging, and honest, showing a slice of life in London in a similar fashion to an episode of _The Wire_.
 ---
 
 I went to a film screening and discussion last week about Mark Duggan's shooting by the police, and the conditions surrounding him and his family[^1].

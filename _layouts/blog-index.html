@@ -13,7 +13,7 @@ layout: default
         {% endif %}
       </header>
       <div class="teaser__excerpt">
-        {{ post.excerpt | markdownify }}
+        {{ post.description | markdownify }}
         <p><a href="{{ post.url }}" class="btn">Read more</a></p>
       </div>
     </div>

@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Geeks for Social Change</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.typekit.net/mxj8bof.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -17,16 +16,33 @@
     <!-- Open Graph -->
     <meta property="og:image:width" content="279">
     <meta property="og:image:height" content="279">
-    <meta property="og:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
+    <meta property="og:site_name" content="Geeks for Social Change">
+
+  {%- if page.title %}
+    <title>{{ page.title }} | Geeks for Social Change</title>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+    <title>Geeks for Social Change</title>
     <meta property="og:title" content="Geeks for Social Change">
+    <meta name="twitter:title" content="Geeks for Social Change">
+  {% endif %}
+  {%- if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="twitter:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
+    <meta property="og:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
+  {% endif %}
     <meta property="og:image" content="{{ site.url }}/og-image.jpg">
-    <meta property="og:url" content="{{ site.url }}">
+    <meta name="twitter:image" content="{{ site.url }}/og-image-2_1.png">
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@gfscstudio">
     <meta name="twitter:creator" content="@gfscstudio">
-    <meta name="twitter:title" content="Geeks for Social Change">
-    <meta name="twitter:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
-    <meta name="twitter:image" content="{{ site.url }}/og-image-2_1.png">
+
   {%- if jekyll.environment == "production" %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138415980-1"></script>

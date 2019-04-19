@@ -1,9 +1,9 @@
 ---
 layout: blog
 title: "PlaceCal: The Story So Far"
-subtitle: Creating a low social capital social network for Manchester
+subtitle: Creating a low social capital social network for Manchester.
 author: kim
-excerpt: I’ve spent the last 9 months working with [PHASE@MMU](http://msaphase.org/), [CityVerve](https://cityverve.org.uk/), and Manchester City Council to deliver [PlaceCal](https://placecal.org/), a crowd-sourced community events calendar. It’s been an extremely busy time with a lot of learning in a very short amount of time, and as we head into Phase 2 of our development I thought it’d be a good time to recap the process so far.
+description: I’ve spent the last 9 months working with PHASE@MMU, CityVerve, and Manchester City Council to deliver PlaceCal, a crowd-sourced community events calendar. It’s been an extremely busy time with a lot of learning in a very short amount of time, and as we head into Phase 2 of our development I thought it’d be a good time to recap the process so far.
 ---
 
 I’ve spent the last 9 months working with [PHASE@MMU](http://msaphase.org/), Smart City project [CityVerve](https://cityverve.org.uk/), and Manchester City Council to deliver [PlaceCal](https://placecal.org/), a crowd-sourced community events calendar. It’s been an extremely busy time with a lot of learning in a very short amount of time, and as we head into Phase 2 of our development I thought it’d be a good time to recap the process so far.
