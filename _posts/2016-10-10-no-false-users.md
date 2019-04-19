@@ -2,6 +2,7 @@
 layout: blog
 title: No False Users
 subtitle: Don't confuse fact and fiction when creating ad-hoc user stories.
+description: User stories are meant to be non-fiction. We should not be in the business of giving any more airtime to fictional user stories than we need to, given how easy it is to gather them.
 author: kim
 ---
 
