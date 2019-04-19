@@ -168,4 +168,6 @@ All the software is open source, and we’re developing a comprehensive training
 First posted 19 April 2019
 {: .updated}
 
-{% include image.html description="Our work made us a winner of the AAL Smart Ageing Prize 2018! (L-R Kim & Stefan)" url="/assets/images/blog/brief-intro-placecal/6.jpg" %}
+{% include image.html description="Our work made us a winner of the AAL Smart Ageing Prize 2018[^aal]! (L-R Kim & Stefan)" url="/assets/images/blog/brief-intro-placecal/6.jpg" %}
+
+[^aal]: "The Smart Ageing Prize awards €50,000 to 3 innovative solutions for active and healthy ageing", [AAL Association, 2018](http://www.aal-europe.eu/the-smart-ageing-prize-awards-e50000-to-3-innovative-solutions-for-active-and-healthy-ageing/)
