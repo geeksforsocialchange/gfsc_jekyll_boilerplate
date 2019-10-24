@@ -27,6 +27,7 @@
     <meta property="og:title" content="Geeks for Social Change">
     <meta name="twitter:title" content="Geeks for Social Change">
   {% endif %}
+
   {%- if page.description %}
     <meta name="twitter:description" content="{{ page.description }}">
     <meta property="og:description" content="{{ page.description }}">
@@ -34,8 +35,18 @@
     <meta name="twitter:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
     <meta property="og:description" content="A Manchester, UK based studio. Working towards a fairer society using activism, technology, and research.">
   {% endif %}
+
+  {%- if page.social-image-square %}
+    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.social-image-square }}">
+  {% else %}
     <meta property="og:image" content="{{ site.url }}/og-image.jpg">
+  {% endif %}
+
+  {%- if page.social-image-wide %}
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.social-image-wide }}">
+  {% else %}
     <meta name="twitter:image" content="{{ site.url }}/og-image-2_1.png">
+  {% endif %}
 
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
