@@ -16,6 +16,8 @@ There will be lots of hands-on activities, an archeological surveying walk, talk
 
 We’ve kept a few slots for talks open so please get in touch if you have anything you want to present. We will also be recording oral histories throughout the day and invite anyone who wishes to to tell their story to have it documented by a trained historian. Our goal is to collectively submit a funding bid in 2020 to both continue to develop the connections made through this event, and create a community-led archive of all the history projects in our neighbourhood.
 
+_You can [RSVP on Eventbrite](https://www.eventbrite.co.uk/e/hulme-greenheys-community-history-day-tickets-78439365253?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing) and [Attend on Facebook](https://www.facebook.com/events/454303218764920/)._
+
 ## Itinerary
 
 _All events at [Old Abbey Taphouse](https://goo.gl/maps/jW2eVPYtBw8QGm738), Guildhall Close, Manchester Science Park, Manchester, M15 6SY_
