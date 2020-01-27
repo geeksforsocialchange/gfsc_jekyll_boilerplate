@@ -71,7 +71,7 @@ We summarise this interpretation of the capability approach and how it can be di
       <th>‘Active-ageing’</th>
       <th>Community Technology Partnership</th>
     </tr>
-    <tr class="hline">
+    <tr>
       <td>What is the person or group actually able to do and be?</td>
       <td>Programmes focussed on increasing equality of opportunity in place</td>
       <td>Older people actively design and change services in collaboration with agencies and experts</td>
