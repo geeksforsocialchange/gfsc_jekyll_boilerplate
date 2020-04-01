@@ -1,7 +1,9 @@
 .members
-  +border(0 2px)
-  +for-tablet-portrait-up
-    border-width: 0
+  +for-phone-only
+    +border(0 2px)
+    hr
+      display: none
+
 
 .member
   margin-top: 1rem
@@ -9,6 +11,7 @@
     margin-top: 0
   &__job, &__bio, &__pronouns, &__name
     padding-left: 1.5rem !important
+    padding-right: 1.5rem
   &__name
     margin-bottom: 0
   &__job

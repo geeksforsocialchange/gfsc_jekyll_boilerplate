@@ -194,12 +194,12 @@ figcaption .desc, .infobox .desc { display: block; font-size: 1rem; line-height:
 @media (min-width: 1024px) { .image--float { margin-left: -1.5rem; } }
 @media (min-width: 1600px) { .image--float { margin-left: -5rem; } }
 
-.members { border-style: solid; border-color: #ea5b0c; border-width: 0 2px; }
-@media (min-width: 640px) { .members { border-width: 0; } }
+@media (max-width: 639px) { .members { border-style: solid; border-color: #ea5b0c; border-width: 0 2px; }
+  .members hr { display: none; } }
 
 .member { margin-top: 1rem; }
 @media (min-width: 640px) { .member { margin-top: 0; } }
-.member__job, .member__bio, .member__pronouns, .member__name { padding-left: 1.5rem !important; }
+.member__job, .member__bio, .member__pronouns, .member__name { padding-left: 1.5rem !important; padding-right: 1.5rem; }
 .member__name { margin-bottom: 0; }
 .member__job { border-style: solid; border-color: #ea5b0c; border-width: 0 0 2px 0; padding-top: 0.25rem; padding-bottom: 0.25rem; }
 @media (min-width: 1024px) { .member__job { padding-top: 0.5rem; padding-bottom: 0.5rem; } }
