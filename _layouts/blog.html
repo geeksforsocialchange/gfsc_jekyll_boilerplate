@@ -22,9 +22,7 @@ layout: default
     <div class="blog__meta" rel="author">By {{ author.name }}</div>
     <div class="blog__meta blog__meta--avatar">
       <picture>
-        <source media="(max-width: 1023px)" srcset="/assets/images/authors/{{ author.avatar-small }}">
-        <source media="(min-width: 1024px)" srcset="/assets/images/authors/{{ author.avatar-large }}">
-        <img src="/assets/images/authors/{{ author.avatar-large }}"
+        <img src="/assets/images/authors/{{ author.avatar }}"
            alt="A photo of {{ page.author }}">
       </picture>
     </div>
