@@ -13,5 +13,9 @@ We won an AAL Smart Ageing Prize in 2018 for our work on PlaceCal, a neighbourho
 
 We have since expanded PlaceCal’s remit to benefit community members of all ages. The software, education and engagement package will soon be ready to be rolled out in neighbourhoods across the UK and worldwide.
 
+[Find out more about our team](/the-team)
+{: .btn}
+
+
 [Get in touch to learn more](/contact)
 {: .btn}
