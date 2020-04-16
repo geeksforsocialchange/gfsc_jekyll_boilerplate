@@ -10,7 +10,7 @@ Resistance Lab is a network of activists, grassroots community groups and univer
 
 Through several workshops and meetings, we have been working together to analyse and understand stop and search data in our local communities, work with local archives to uncover alternative narratives of people who have died following police contact, and help families affected with the emotional and legal support necessary to investigate and challenge decisions.
 
-Following a successful grant application to Nesta Democracy Pioneers program, we are delighted to be able to recruit a graphic designer on a freelance basis to create:
+Following a successful grant application to [Nesta Democracy Pioneers program](https://www.nesta.org.uk/blog/meet-19-pioneers-shaking-democracy/), we are delighted to be able to recruit a graphic designer on a freelance basis to create:
 
  * A logo and branding guidelines
  * Social media assets
