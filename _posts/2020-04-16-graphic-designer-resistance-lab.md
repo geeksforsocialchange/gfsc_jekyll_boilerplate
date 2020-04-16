@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Graphic designer for anti state violence project wanted!
-subtitle: Resistnace Lab are hiring
+subtitle: Resistance Lab are hiring
 description: Following a successful grant application to Nesta Democracy Pioneers program, we are delighted to be able to recruit a graphic designer on a freelance basis.
 author: kim
 ---
