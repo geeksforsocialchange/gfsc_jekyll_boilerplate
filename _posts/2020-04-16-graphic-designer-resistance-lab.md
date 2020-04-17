@@ -20,7 +20,7 @@ Following a successful grant application to [Nesta Democracy Pioneers program](h
 
 For this work **the total budget is £1,250** (calculated as 5 days at £250). You will be managed by Kim Foale (Geeks for Social Change) for this work, who will be creating the website itself.
 
-To apply, please email a portfolio link with examples of your work in these areas (instagram account, website URL, PDF, etc), and a few sentences on why you’d be interested in the work to **[kim@gfsc.studio](mailto:kim@gfsc.studio) before 10am on Mon 4th June 2020**.
+To apply, please email a portfolio link with examples of your work in these areas (instagram account, website URL, PDF, etc), and a few sentences on why you’d be interested in the work to **[kim@gfsc.studio](mailto:kim@gfsc.studio) before 10am on Mon 4th May 2020**.
 
 If there are multiple suitable applicants, we will conduct interviews by video call the following week. We would like all work to be completed within four weeks. Given the racially disproportionate nature of state violence, we would especially welcome applications from members of the BAME community.
 
