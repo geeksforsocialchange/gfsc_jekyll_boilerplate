@@ -25,3 +25,5 @@ To apply, please email a portfolio link with examples of your work in these area
 If there are multiple suitable applicants, we will conduct interviews by video call the following week. We would like all work to be completed within four weeks. Given the racially disproportionate nature of state violence, we would especially welcome applications from members of the BAME community.
 
 _Please note you must be able to invoice for this work as a freelancer, we cannot pay you through PAYE._
+
+_Edited 17th April 202: the closing date for applications is Monday 4th **May** not June, apologies for our mix-up!_
