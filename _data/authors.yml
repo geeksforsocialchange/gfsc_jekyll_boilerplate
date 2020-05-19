@@ -3,6 +3,7 @@ kim:
   job: Founder
   avatar: kim-foale@400.jpg
   pronouns: they/them
+  in_team: true
   bio: |
     Kim is a community activist with over 15 years’ experience working with a wide range of campaign groups in Leeds, Manchester and Nottingham. They are an experienced web developer who has built dozens of websites and apps for a large range of community organisations over the last 20 years. They have a PhD in sociology, specialising in grounded theory qualitative research.
 
@@ -12,6 +13,7 @@ stefan:
   job: Academic consultant
   avatar: stefan-white@400.jpg
   pronouns: he/him
+  in_team: true
   bio: |
     Stefan is co-head of the Manchester School of Architecture. He leads Place-Health Architecture Space Environment (PHASE), an engaged design research consultancy that aims to create healthier places by working collaboratively with national and local government, housing, health and care providers, voluntary groups, SMEs and local communities. He has been conducting age friendly research such as the MAFN project for over 12 years.
 
@@ -21,6 +23,7 @@ jazz:
   job: Frontend developer & content strategist
   avatar: jazz-chatfield@400.jpg
   pronouns: they/he
+  in_team: true
   bio: |
     Jazz is a web developer and writer based in Manchester. They are a React and web developer who recently graduated from the Northcoders intensive coding bootcamp. They have also worked professionally as a content strategist, copywriter, content writer and funding bid writer. They co-produce experimental theatre cabaret night FLIM NITE in Manchester, Sheffield, Newcastle, London and more.
 justin:
@@ -28,6 +31,7 @@ justin:
   job: Backend developer & technology consultant
   avatar: justin-hellings@400.jpg
   pronouns: he/him
+  in_team: true
   bio: |
     Justin has been designing and building software professionally since 1996 in areas such as accountancy, 3D games, CCTV control systems, and a variety of websites and web applications. He is also a life coach and a senior trainee in Gestalt psychotherapy. He brings a thorough understanding of the challenges of fast-moving projects created by distributed teams, and has the skills to coach team members manage these challenges effectively.
 mark:
@@ -35,6 +39,7 @@ mark:
   job: Freelance branding & design consultant
   avatar: mark-dormand@400.jpg
   pronouns: he/him
+  in_team: true
   bio: |
     Mark has been involved in projects large and small for all manner of clients and organisations for the past fifteen years across the UK. With a focus on thoughtful and quality work, he works across both print and digital media and ensures all GFSC project designs are practical, welcoming and engaging.
 sylvia:
@@ -42,5 +47,12 @@ sylvia:
   job: Freelance researcher & historian
   avatar: sylvia-koelling@400.jpg
   pronouns: she/they
+  in_team: true
   bio: |
     Sylvia is an independent researcher whose interests include local and regional municipal history of Greater Manchester and the history of sanitary reform in Britain and Victorian Britain. Sylvia’s current research concerns the history of baths and wash-houses in Manchester.
+kerry:
+  name: Dr Kerry Pimblott
+  job: Lecturer in International History
+  pronouns: she/her
+  in_team: false
+  avatar: kerry-pimblott@400.jpg
