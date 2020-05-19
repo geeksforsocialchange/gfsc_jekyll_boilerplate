@@ -4,6 +4,8 @@ title: Manchester Community Histories in the Shadow of Urban Regeneration
 subtitle: A report on our community history day in November 2019
 description: "On a chilly Saturday morning last November I joined other local residents, activists and researchers in participating in the first Hulme & Greenheys Community History Day in Manchester."
 author: kerry
+social-image-wide: blog/hulme-history-day/og-wide.png
+social-image-square: blog/hulme-history-day/og-square.png
 ---
 
 On a chilly Saturday morning last November I joined other local residents, activists and researchers to participate in the first [Hulme &amp; Greenheys Community History Day](2019/10/14/hulme-greenheys-history-day.html) in Manchester. The event was held in the historic [Old Abbey Taphouse](http://www.theoldabbeytaphouse.co.uk/), one of the few nineteenth-century institutions to have survived the multiple waves of state-led ‘urban regeneration’ that have irrevocably transformed the area over the past sixty years. Organised by the pub's co-director Rachele Evaroa in partnership with Kim Foale, founder of local tech enterprise Geeks for Social Change, the day’s activities were designed to bring people together to share firsthand accounts of life in the old neighbourhood as well as foster dialogue about the impact of city planning and urban regeneration initiatives on local communities – then and now.
