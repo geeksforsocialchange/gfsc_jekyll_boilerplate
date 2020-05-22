@@ -4,6 +4,8 @@ title: Tech culture is failing communities. How can we make it better?
 subtitle: We need a roadmap towards truly community-owned technology.
 author: kim
 description: The shift in internet and technology culture over the last decade has been phenomenal. Most of the services we use today haven’t been around long at all — Facebook is thirteen years old, Twitter ten, and Instagram six. The first iPhone — and arguably with it the modern concept of an “app” — was released in 2007. And yet despite all this technology that’s supposed to bring us together, social isolation is a major player in the current epidemic of depression, loneliness, eating disorders, suicide, and other social problems. How has this happened?
+social-image-wide: blog/tech-culture/og-wide.png
+social-image-square: blog/tech-culture/og-square.png
 ---
 Californian design principles have taken over the internet, turning people into products. We need a roadmap towards truly community-owned technology.
 
